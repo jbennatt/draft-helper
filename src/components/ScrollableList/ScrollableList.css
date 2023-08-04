@@ -1,0 +1,15 @@
+.app {
+    width: 'max-content';
+    margin: 0 auto;
+  }
+  
+  .scroller {
+    margin: 5px auto;
+    height: 300px;
+    /* width: 'max-content'; */
+    overflow: auto;
+  }
+  
+  .item {
+    margin: 0;
+  }

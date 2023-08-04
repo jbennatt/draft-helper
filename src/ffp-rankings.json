@@ -1,0 +1,4312 @@
+[
+  {
+    "RK": 1,
+    "TIERS": 1,
+    "PLAYER NAME": "Justin Jefferson",
+    "TEAM": "MIN",
+    "POS": "WR1",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 2,
+    "TIERS": 1,
+    "PLAYER NAME": "Christian McCaffrey",
+    "TEAM": "SF",
+    "POS": "RB1",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 3,
+    "TIERS": 1,
+    "PLAYER NAME": "Ja'Marr Chase",
+    "TEAM": "CIN",
+    "POS": "WR2",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 4,
+    "TIERS": 1,
+    "PLAYER NAME": "Austin Ekeler",
+    "TEAM": "LAC",
+    "POS": "RB2",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 5,
+    "TIERS": 2,
+    "PLAYER NAME": "Cooper Kupp",
+    "TEAM": "LAR",
+    "POS": "WR3",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 6,
+    "TIERS": 2,
+    "PLAYER NAME": "Travis Kelce",
+    "TEAM": "KC",
+    "POS": "TE1",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 7,
+    "TIERS": 2,
+    "PLAYER NAME": "Tyreek Hill",
+    "TEAM": "MIA",
+    "POS": "WR4",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 8,
+    "TIERS": 2,
+    "PLAYER NAME": "Bijan Robinson",
+    "TEAM": "ATL",
+    "POS": "RB3",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 9,
+    "TIERS": 2,
+    "PLAYER NAME": "Nick Chubb",
+    "TEAM": "CLE",
+    "POS": "RB4",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 10,
+    "TIERS": 3,
+    "PLAYER NAME": "Saquon Barkley",
+    "TEAM": "NYG",
+    "POS": "RB5",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 11,
+    "TIERS": 3,
+    "PLAYER NAME": "Stefon Diggs",
+    "TEAM": "BUF",
+    "POS": "WR5",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 12,
+    "TIERS": 3,
+    "PLAYER NAME": "Tony Pollard",
+    "TEAM": "DAL",
+    "POS": "RB6",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 13,
+    "TIERS": 3,
+    "PLAYER NAME": "CeeDee Lamb",
+    "TEAM": "DAL",
+    "POS": "WR6",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 14,
+    "TIERS": 3,
+    "PLAYER NAME": "Jonathan Taylor",
+    "TEAM": "IND",
+    "POS": "RB7",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 15,
+    "TIERS": 3,
+    "PLAYER NAME": "Davante Adams",
+    "TEAM": "LV",
+    "POS": "WR7",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+1"
+  },
+  {
+    "RK": 16,
+    "TIERS": 3,
+    "PLAYER NAME": "A.J. Brown",
+    "TEAM": "PHI",
+    "POS": "WR8",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 17,
+    "TIERS": 3,
+    "PLAYER NAME": "Amon-Ra St. Brown",
+    "TEAM": "DET",
+    "POS": "WR9",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 18,
+    "TIERS": 3,
+    "PLAYER NAME": "Derrick Henry",
+    "TEAM": "TEN",
+    "POS": "RB8",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 19,
+    "TIERS": 3,
+    "PLAYER NAME": "Garrett Wilson",
+    "TEAM": "NYJ",
+    "POS": "WR10",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+1"
+  },
+  {
+    "RK": 20,
+    "TIERS": 4,
+    "PLAYER NAME": "Josh Jacobs",
+    "TEAM": "LV",
+    "POS": "RB9",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+1"
+  },
+  {
+    "RK": 21,
+    "TIERS": 4,
+    "PLAYER NAME": "Jaylen Waddle",
+    "TEAM": "MIA",
+    "POS": "WR11",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 22,
+    "TIERS": 4,
+    "PLAYER NAME": "Rhamondre Stevenson",
+    "TEAM": "NE",
+    "POS": "RB10",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 23,
+    "TIERS": 4,
+    "PLAYER NAME": "Chris Olave",
+    "TEAM": "NO",
+    "POS": "WR12",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 24,
+    "TIERS": 4,
+    "PLAYER NAME": "Najee Harris",
+    "TEAM": "PIT",
+    "POS": "RB11",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 25,
+    "TIERS": 4,
+    "PLAYER NAME": "Mark Andrews",
+    "TEAM": "BAL",
+    "POS": "TE2",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 26,
+    "TIERS": 4,
+    "PLAYER NAME": "DeVonta Smith",
+    "TEAM": "PHI",
+    "POS": "WR13",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+4"
+  },
+  {
+    "RK": 27,
+    "TIERS": 5,
+    "PLAYER NAME": "Tee Higgins",
+    "TEAM": "CIN",
+    "POS": "WR14",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+5"
+  },
+  {
+    "RK": 28,
+    "TIERS": 5,
+    "PLAYER NAME": "Patrick Mahomes II",
+    "TEAM": "KC",
+    "POS": "QB1",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -13
+  },
+  {
+    "RK": 29,
+    "TIERS": 5,
+    "PLAYER NAME": "Josh Allen",
+    "TEAM": "BUF",
+    "POS": "QB2",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -7
+  },
+  {
+    "RK": 30,
+    "TIERS": 5,
+    "PLAYER NAME": "Breece Hall",
+    "TEAM": "NYJ",
+    "POS": "RB12",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -3
+  },
+  {
+    "RK": 31,
+    "TIERS": 5,
+    "PLAYER NAME": "Jalen Hurts",
+    "TEAM": "PHI",
+    "POS": "QB3",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 32,
+    "TIERS": 5,
+    "PLAYER NAME": "Joe Mixon",
+    "TEAM": "CIN",
+    "POS": "RB13",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 33,
+    "TIERS": 5,
+    "PLAYER NAME": "Travis Etienne Jr.",
+    "TEAM": "JAC",
+    "POS": "RB14",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -4
+  },
+  {
+    "RK": 34,
+    "TIERS": 5,
+    "PLAYER NAME": "DK Metcalf",
+    "TEAM": "SEA",
+    "POS": "WR15",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+1"
+  },
+  {
+    "RK": 35,
+    "TIERS": 5,
+    "PLAYER NAME": "Jahmyr Gibbs",
+    "TEAM": "DET",
+    "POS": "RB15",
+    "BYE WEEK": 9,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 36,
+    "TIERS": 5,
+    "PLAYER NAME": "Aaron Jones",
+    "TEAM": "GB",
+    "POS": "RB16",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 37,
+    "TIERS": 5,
+    "PLAYER NAME": "Keenan Allen",
+    "TEAM": "LAC",
+    "POS": "WR16",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 38,
+    "TIERS": 5,
+    "PLAYER NAME": "Amari Cooper",
+    "TEAM": "CLE",
+    "POS": "WR17",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 39,
+    "TIERS": 5,
+    "PLAYER NAME": "Calvin Ridley",
+    "TEAM": "JAC",
+    "POS": "WR18",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+4"
+  },
+  {
+    "RK": 40,
+    "TIERS": 5,
+    "PLAYER NAME": "Kenneth Walker III",
+    "TEAM": "SEA",
+    "POS": "RB17",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 41,
+    "TIERS": 5,
+    "PLAYER NAME": "Lamar Jackson",
+    "TEAM": "BAL",
+    "POS": "QB4",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -5
+  },
+  {
+    "RK": 42,
+    "TIERS": 6,
+    "PLAYER NAME": "Deebo Samuel",
+    "TEAM": "SF",
+    "POS": "WR19",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -3
+  },
+  {
+    "RK": 43,
+    "TIERS": 6,
+    "PLAYER NAME": "J.K. Dobbins",
+    "TEAM": "BAL",
+    "POS": "RB18",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+7"
+  },
+  {
+    "RK": 44,
+    "TIERS": 6,
+    "PLAYER NAME": "T.J. Hockenson",
+    "TEAM": "MIN",
+    "POS": "TE3",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 45,
+    "TIERS": 6,
+    "PLAYER NAME": "Joe Burrow",
+    "TEAM": "CIN",
+    "POS": "QB5",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -12
+  },
+  {
+    "RK": 46,
+    "TIERS": 6,
+    "PLAYER NAME": "Jerry Jeudy",
+    "TEAM": "DEN",
+    "POS": "WR20",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+11"
+  },
+  {
+    "RK": 47,
+    "TIERS": 6,
+    "PLAYER NAME": "Cam Akers",
+    "TEAM": "LAR",
+    "POS": "RB19",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 48,
+    "TIERS": 6,
+    "PLAYER NAME": "DJ Moore",
+    "TEAM": "CHI",
+    "POS": "WR21",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 49,
+    "TIERS": 6,
+    "PLAYER NAME": "DeAndre Hopkins",
+    "TEAM": "TEN",
+    "POS": "WR22",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 50,
+    "TIERS": 6,
+    "PLAYER NAME": "Alexander Mattison",
+    "TEAM": "MIN",
+    "POS": "RB20",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 51,
+    "TIERS": 6,
+    "PLAYER NAME": "Drake London",
+    "TEAM": "ATL",
+    "POS": "WR23",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 52,
+    "TIERS": 6,
+    "PLAYER NAME": "Terry McLaurin",
+    "TEAM": "WAS",
+    "POS": "WR24",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 53,
+    "TIERS": 6,
+    "PLAYER NAME": "Miles Sanders",
+    "TEAM": "CAR",
+    "POS": "RB21",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 54,
+    "TIERS": 6,
+    "PLAYER NAME": "Christian Watson",
+    "TEAM": "GB",
+    "POS": "WR25",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 55,
+    "TIERS": 6,
+    "PLAYER NAME": "Justin Herbert",
+    "TEAM": "LAC",
+    "POS": "QB6",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -9
+  },
+  {
+    "RK": 56,
+    "TIERS": 6,
+    "PLAYER NAME": "Chris Godwin",
+    "TEAM": "TB",
+    "POS": "WR26",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 57,
+    "TIERS": 6,
+    "PLAYER NAME": "Dameon Pierce",
+    "TEAM": "HOU",
+    "POS": "RB22",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -13
+  },
+  {
+    "RK": 58,
+    "TIERS": 6,
+    "PLAYER NAME": "Justin Fields",
+    "TEAM": "CHI",
+    "POS": "QB7",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -10
+  },
+  {
+    "RK": 59,
+    "TIERS": 7,
+    "PLAYER NAME": "Christian Kirk",
+    "TEAM": "JAC",
+    "POS": "WR27",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+15"
+  },
+  {
+    "RK": 60,
+    "TIERS": 7,
+    "PLAYER NAME": "Trevor Lawrence",
+    "TEAM": "JAC",
+    "POS": "QB8",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -7
+  },
+  {
+    "RK": 61,
+    "TIERS": 7,
+    "PLAYER NAME": "James Conner",
+    "TEAM": "ARI",
+    "POS": "RB23",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 62,
+    "TIERS": 7,
+    "PLAYER NAME": "Brandon Aiyuk",
+    "TEAM": "SF",
+    "POS": "WR28",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+9"
+  },
+  {
+    "RK": 63,
+    "TIERS": 7,
+    "PLAYER NAME": "Darren Waller",
+    "TEAM": "NYG",
+    "POS": "TE4",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 64,
+    "TIERS": 7,
+    "PLAYER NAME": "George Kittle",
+    "TEAM": "SF",
+    "POS": "TE5",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -15
+  },
+  {
+    "RK": 65,
+    "TIERS": 7,
+    "PLAYER NAME": "Tyler Lockett",
+    "TEAM": "SEA",
+    "POS": "WR29",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 66,
+    "TIERS": 7,
+    "PLAYER NAME": "Rachaad White",
+    "TEAM": "TB",
+    "POS": "RB24",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 67,
+    "TIERS": 7,
+    "PLAYER NAME": "Mike Williams",
+    "TEAM": "LAC",
+    "POS": "WR30",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 68,
+    "TIERS": 7,
+    "PLAYER NAME": "Diontae Johnson",
+    "TEAM": "PIT",
+    "POS": "WR31",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+15"
+  },
+  {
+    "RK": 69,
+    "TIERS": 7,
+    "PLAYER NAME": "Marquise Brown",
+    "TEAM": "ARI",
+    "POS": "WR32",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+13"
+  },
+  {
+    "RK": 70,
+    "TIERS": 7,
+    "PLAYER NAME": "Kyle Pitts",
+    "TEAM": "ATL",
+    "POS": "TE6",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -12
+  },
+  {
+    "RK": 71,
+    "TIERS": 7,
+    "PLAYER NAME": "David Montgomery",
+    "TEAM": "DET",
+    "POS": "RB25",
+    "BYE WEEK": 9,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+5"
+  },
+  {
+    "RK": 72,
+    "TIERS": 7,
+    "PLAYER NAME": "Javonte Williams",
+    "TEAM": "DEN",
+    "POS": "RB26",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -4
+  },
+  {
+    "RK": 73,
+    "TIERS": 7,
+    "PLAYER NAME": "Mike Evans",
+    "TEAM": "TB",
+    "POS": "WR33",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+5"
+  },
+  {
+    "RK": 74,
+    "TIERS": 7,
+    "PLAYER NAME": "D'Andre Swift",
+    "TEAM": "PHI",
+    "POS": "RB27",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 75,
+    "TIERS": 7,
+    "PLAYER NAME": "Michael Pittman Jr.",
+    "TEAM": "IND",
+    "POS": "WR34",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 76,
+    "TIERS": 7,
+    "PLAYER NAME": "Isiah Pacheco",
+    "TEAM": "KC",
+    "POS": "RB28",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -4
+  },
+  {
+    "RK": 77,
+    "TIERS": 7,
+    "PLAYER NAME": "Dallas Goedert",
+    "TEAM": "PHI",
+    "POS": "TE7",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -15
+  },
+  {
+    "RK": 78,
+    "TIERS": 7,
+    "PLAYER NAME": "Alvin Kamara",
+    "TEAM": "NO",
+    "POS": "RB29",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -5
+  },
+  {
+    "RK": 79,
+    "TIERS": 7,
+    "PLAYER NAME": "James Cook",
+    "TEAM": "BUF",
+    "POS": "RB30",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 80,
+    "TIERS": 8,
+    "PLAYER NAME": "Deshaun Watson",
+    "TEAM": "CLE",
+    "POS": "QB9",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 81,
+    "TIERS": 8,
+    "PLAYER NAME": "Jahan Dotson",
+    "TEAM": "WAS",
+    "POS": "WR35",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+9"
+  },
+  {
+    "RK": 82,
+    "TIERS": 8,
+    "PLAYER NAME": "Dalvin Cook",
+    "TEAM": "FA",
+    "POS": "RB31",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -23
+  },
+  {
+    "RK": 83,
+    "TIERS": 8,
+    "PLAYER NAME": "George Pickens",
+    "TEAM": "PIT",
+    "POS": "WR36",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 84,
+    "TIERS": 8,
+    "PLAYER NAME": "Jaxon Smith-Njigba",
+    "TEAM": "SEA",
+    "POS": "WR37",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+5"
+  },
+  {
+    "RK": 85,
+    "TIERS": 8,
+    "PLAYER NAME": "Rashaad Penny",
+    "TEAM": "PHI",
+    "POS": "RB32",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 86,
+    "TIERS": 8,
+    "PLAYER NAME": "Treylon Burks",
+    "TEAM": "TEN",
+    "POS": "WR38",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 87,
+    "TIERS": 8,
+    "PLAYER NAME": "Jordan Addison",
+    "TEAM": "MIN",
+    "POS": "WR39",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 88,
+    "TIERS": 8,
+    "PLAYER NAME": "Brian Robinson Jr.",
+    "TEAM": "WAS",
+    "POS": "RB33",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 89,
+    "TIERS": 8,
+    "PLAYER NAME": "Tua Tagovailoa",
+    "TEAM": "MIA",
+    "POS": "QB10",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 90,
+    "TIERS": 8,
+    "PLAYER NAME": "Antonio Gibson",
+    "TEAM": "WAS",
+    "POS": "RB34",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 91,
+    "TIERS": 8,
+    "PLAYER NAME": "AJ Dillon",
+    "TEAM": "GB",
+    "POS": "RB35",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -7
+  },
+  {
+    "RK": 92,
+    "TIERS": 8,
+    "PLAYER NAME": "Gabe Davis",
+    "TEAM": "BUF",
+    "POS": "WR40",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+7"
+  },
+  {
+    "RK": 93,
+    "TIERS": 8,
+    "PLAYER NAME": "Dak Prescott",
+    "TEAM": "DAL",
+    "POS": "QB11",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -16
+  },
+  {
+    "RK": 94,
+    "TIERS": 8,
+    "PLAYER NAME": "Khalil Herbert",
+    "TEAM": "CHI",
+    "POS": "RB36",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+4"
+  },
+  {
+    "RK": 95,
+    "TIERS": 8,
+    "PLAYER NAME": "Courtland Sutton",
+    "TEAM": "DEN",
+    "POS": "WR41",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+19"
+  },
+  {
+    "RK": 96,
+    "TIERS": 8,
+    "PLAYER NAME": "Pat Freiermuth",
+    "TEAM": "PIT",
+    "POS": "TE8",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 97,
+    "TIERS": 8,
+    "PLAYER NAME": "Evan Engram",
+    "TEAM": "JAC",
+    "POS": "TE9",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -16
+  },
+  {
+    "RK": 98,
+    "TIERS": 8,
+    "PLAYER NAME": "Brandin Cooks",
+    "TEAM": "DAL",
+    "POS": "WR42",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 99,
+    "TIERS": 8,
+    "PLAYER NAME": "Elijah Moore",
+    "TEAM": "CLE",
+    "POS": "WR43",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 100,
+    "TIERS": 8,
+    "PLAYER NAME": "Daniel Jones",
+    "TEAM": "NYG",
+    "POS": "QB12",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 101,
+    "TIERS": 8,
+    "PLAYER NAME": "Damien Harris",
+    "TEAM": "BUF",
+    "POS": "RB37",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+5"
+  },
+  {
+    "RK": 102,
+    "TIERS": 9,
+    "PLAYER NAME": "Samaje Perine",
+    "TEAM": "DEN",
+    "POS": "RB38",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 103,
+    "TIERS": 9,
+    "PLAYER NAME": "Michael Thomas",
+    "TEAM": "NO",
+    "POS": "WR44",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 104,
+    "TIERS": 9,
+    "PLAYER NAME": "David Njoku",
+    "TEAM": "CLE",
+    "POS": "TE10",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -10
+  },
+  {
+    "RK": 105,
+    "TIERS": 9,
+    "PLAYER NAME": "Quentin Johnston",
+    "TEAM": "LAC",
+    "POS": "WR45",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+15"
+  },
+  {
+    "RK": 106,
+    "TIERS": 9,
+    "PLAYER NAME": "Zay Flowers",
+    "TEAM": "BAL",
+    "POS": "WR46",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+18"
+  },
+  {
+    "RK": 107,
+    "TIERS": 9,
+    "PLAYER NAME": "Rashod Bateman",
+    "TEAM": "BAL",
+    "POS": "WR47",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+20"
+  },
+  {
+    "RK": 108,
+    "TIERS": 9,
+    "PLAYER NAME": "Geno Smith",
+    "TEAM": "SEA",
+    "POS": "QB13",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 109,
+    "TIERS": 9,
+    "PLAYER NAME": "Kirk Cousins",
+    "TEAM": "MIN",
+    "POS": "QB14",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 110,
+    "TIERS": 9,
+    "PLAYER NAME": "JuJu Smith-Schuster",
+    "TEAM": "NE",
+    "POS": "WR48",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+9"
+  },
+  {
+    "RK": 111,
+    "TIERS": 9,
+    "PLAYER NAME": "Jamaal Williams",
+    "TEAM": "NO",
+    "POS": "RB39",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -16
+  },
+  {
+    "RK": 112,
+    "TIERS": 9,
+    "PLAYER NAME": "Zach Charbonnet",
+    "TEAM": "SEA",
+    "POS": "RB40",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 113,
+    "TIERS": 9,
+    "PLAYER NAME": "Kadarius Toney",
+    "TEAM": "KC",
+    "POS": "WR49",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -13
+  },
+  {
+    "RK": 114,
+    "TIERS": 9,
+    "PLAYER NAME": "Elijah Mitchell",
+    "TEAM": "SF",
+    "POS": "RB41",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 115,
+    "TIERS": 9,
+    "PLAYER NAME": "Aaron Rodgers",
+    "TEAM": "NYJ",
+    "POS": "QB15",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -10
+  },
+  {
+    "RK": 116,
+    "TIERS": 9,
+    "PLAYER NAME": "Tyler Allgeier",
+    "TEAM": "ATL",
+    "POS": "RB42",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 117,
+    "TIERS": 9,
+    "PLAYER NAME": "Jakobi Meyers",
+    "TEAM": "LV",
+    "POS": "WR50",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+30"
+  },
+  {
+    "RK": 118,
+    "TIERS": 9,
+    "PLAYER NAME": "Nico Collins",
+    "TEAM": "HOU",
+    "POS": "WR51",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+32"
+  },
+  {
+    "RK": 119,
+    "TIERS": 9,
+    "PLAYER NAME": "De'Von Achane",
+    "TEAM": "MIA",
+    "POS": "RB43",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 120,
+    "TIERS": 9,
+    "PLAYER NAME": "Jared Goff",
+    "TEAM": "DET",
+    "POS": "QB16",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -4
+  },
+  {
+    "RK": 121,
+    "TIERS": 9,
+    "PLAYER NAME": "Jameson Williams",
+    "TEAM": "DET",
+    "POS": "WR52",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -3
+  },
+  {
+    "RK": 122,
+    "TIERS": 9,
+    "PLAYER NAME": "Greg Dulcich",
+    "TEAM": "DEN",
+    "POS": "TE11",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 123,
+    "TIERS": 9,
+    "PLAYER NAME": "Dalton Schultz",
+    "TEAM": "HOU",
+    "POS": "TE12",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 124,
+    "TIERS": 9,
+    "PLAYER NAME": "Anthony Richardson",
+    "TEAM": "IND",
+    "POS": "QB17",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -12
+  },
+  {
+    "RK": 125,
+    "TIERS": 9,
+    "PLAYER NAME": "Odell Beckham Jr.",
+    "TEAM": "BAL",
+    "POS": "WR53",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -18
+  },
+  {
+    "RK": 126,
+    "TIERS": 9,
+    "PLAYER NAME": "Allen Lazard",
+    "TEAM": "NYJ",
+    "POS": "WR54",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 127,
+    "TIERS": 9,
+    "PLAYER NAME": "Jaylen Warren",
+    "TEAM": "PIT",
+    "POS": "RB44",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+24"
+  },
+  {
+    "RK": 128,
+    "TIERS": 9,
+    "PLAYER NAME": "Chigoziem Okonkwo",
+    "TEAM": "TEN",
+    "POS": "TE13",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -13
+  },
+  {
+    "RK": 129,
+    "TIERS": 9,
+    "PLAYER NAME": "Skyy Moore",
+    "TEAM": "KC",
+    "POS": "WR55",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 130,
+    "TIERS": 9,
+    "PLAYER NAME": "Jerick McKinnon",
+    "TEAM": "KC",
+    "POS": "RB45",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 131,
+    "TIERS": 10,
+    "PLAYER NAME": "Rondale Moore",
+    "TEAM": "ARI",
+    "POS": "WR56",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+21"
+  },
+  {
+    "RK": 132,
+    "TIERS": 10,
+    "PLAYER NAME": "Jeff Wilson Jr.",
+    "TEAM": "MIA",
+    "POS": "RB46",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+27"
+  },
+  {
+    "RK": 133,
+    "TIERS": 10,
+    "PLAYER NAME": "Russell Wilson",
+    "TEAM": "DEN",
+    "POS": "QB18",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 134,
+    "TIERS": 10,
+    "PLAYER NAME": "Tyler Higbee",
+    "TEAM": "LAR",
+    "POS": "TE14",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+21"
+  },
+  {
+    "RK": 135,
+    "TIERS": 10,
+    "PLAYER NAME": "Tyler Boyd",
+    "TEAM": "CIN",
+    "POS": "WR57",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 136,
+    "TIERS": 10,
+    "PLAYER NAME": "Darnell Mooney",
+    "TEAM": "CHI",
+    "POS": "WR58",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+29"
+  },
+  {
+    "RK": 137,
+    "TIERS": 10,
+    "PLAYER NAME": "D'Onta Foreman",
+    "TEAM": "CHI",
+    "POS": "RB47",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 138,
+    "TIERS": 10,
+    "PLAYER NAME": "Devin Singletary",
+    "TEAM": "HOU",
+    "POS": "RB48",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 139,
+    "TIERS": 10,
+    "PLAYER NAME": "Zay Jones",
+    "TEAM": "JAC",
+    "POS": "WR59",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+33"
+  },
+  {
+    "RK": 140,
+    "TIERS": 10,
+    "PLAYER NAME": "Kendre Miller",
+    "TEAM": "NO",
+    "POS": "RB49",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 141,
+    "TIERS": 10,
+    "PLAYER NAME": "Cole Kmet",
+    "TEAM": "CHI",
+    "POS": "TE15",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -18
+  },
+  {
+    "RK": 142,
+    "TIERS": 10,
+    "PLAYER NAME": "Adam Thielen",
+    "TEAM": "CAR",
+    "POS": "WR60",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 143,
+    "TIERS": 10,
+    "PLAYER NAME": "Dalton Kincaid",
+    "TEAM": "BUF",
+    "POS": "TE16",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -15
+  },
+  {
+    "RK": 144,
+    "TIERS": 10,
+    "PLAYER NAME": "Gerald Everett",
+    "TEAM": "LAC",
+    "POS": "TE17",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+38"
+  },
+  {
+    "RK": 145,
+    "TIERS": 10,
+    "PLAYER NAME": "DJ Chark Jr.",
+    "TEAM": "CAR",
+    "POS": "WR61",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+33"
+  },
+  {
+    "RK": 146,
+    "TIERS": 10,
+    "PLAYER NAME": "Tank Bigsby",
+    "TEAM": "JAC",
+    "POS": "RB50",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 147,
+    "TIERS": 10,
+    "PLAYER NAME": "Raheem Mostert",
+    "TEAM": "MIA",
+    "POS": "RB51",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 148,
+    "TIERS": 10,
+    "PLAYER NAME": "Chuba Hubbard",
+    "TEAM": "CAR",
+    "POS": "RB52",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+10"
+  },
+  {
+    "RK": 149,
+    "TIERS": 10,
+    "PLAYER NAME": "Kenneth Gainwell",
+    "TEAM": "PHI",
+    "POS": "RB53",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+35"
+  },
+  {
+    "RK": 150,
+    "TIERS": 10,
+    "PLAYER NAME": "Romeo Doubs",
+    "TEAM": "GB",
+    "POS": "WR62",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 151,
+    "TIERS": 10,
+    "PLAYER NAME": "Michael Gallup",
+    "TEAM": "DAL",
+    "POS": "WR63",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+13"
+  },
+  {
+    "RK": 152,
+    "TIERS": 10,
+    "PLAYER NAME": "Donovan Peoples-Jones",
+    "TEAM": "CLE",
+    "POS": "WR64",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+43"
+  },
+  {
+    "RK": 153,
+    "TIERS": 10,
+    "PLAYER NAME": "Matthew Stafford",
+    "TEAM": "LAR",
+    "POS": "QB19",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+17"
+  },
+  {
+    "RK": 154,
+    "TIERS": 10,
+    "PLAYER NAME": "Derek Carr",
+    "TEAM": "NO",
+    "POS": "QB20",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+12"
+  },
+  {
+    "RK": 155,
+    "TIERS": 10,
+    "PLAYER NAME": "Rashid Shaheed",
+    "TEAM": "NO",
+    "POS": "WR65",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+54"
+  },
+  {
+    "RK": 156,
+    "TIERS": 10,
+    "PLAYER NAME": "Mike Gesicki",
+    "TEAM": "NE",
+    "POS": "TE18",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+35"
+  },
+  {
+    "RK": 157,
+    "TIERS": 10,
+    "PLAYER NAME": "Juwan Johnson",
+    "TEAM": "NO",
+    "POS": "TE19",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "+22"
+  },
+  {
+    "RK": 158,
+    "TIERS": 10,
+    "PLAYER NAME": "Jerome Ford",
+    "TEAM": "CLE",
+    "POS": "RB54",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+43"
+  },
+  {
+    "RK": 159,
+    "TIERS": 11,
+    "PLAYER NAME": "K.J. Osborn",
+    "TEAM": "MIN",
+    "POS": "WR66",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+40"
+  },
+  {
+    "RK": 160,
+    "TIERS": 11,
+    "PLAYER NAME": "Ezekiel Elliott",
+    "TEAM": "FA",
+    "POS": "RB55",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -23
+  },
+  {
+    "RK": 161,
+    "TIERS": 11,
+    "PLAYER NAME": "Roschon Johnson",
+    "TEAM": "CHI",
+    "POS": "RB56",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -4
+  },
+  {
+    "RK": 162,
+    "TIERS": 11,
+    "PLAYER NAME": "Sam LaPorta",
+    "TEAM": "DET",
+    "POS": "TE20",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 163,
+    "TIERS": 11,
+    "PLAYER NAME": "Gus Edwards",
+    "TEAM": "BAL",
+    "POS": "RB57",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+25"
+  },
+  {
+    "RK": 164,
+    "TIERS": 11,
+    "PLAYER NAME": "Kenny Pickett",
+    "TEAM": "PIT",
+    "POS": "QB21",
+    "BYE WEEK": 6,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -18
+  },
+  {
+    "RK": 165,
+    "TIERS": 11,
+    "PLAYER NAME": "Curtis Samuel",
+    "TEAM": "WAS",
+    "POS": "WR67",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+64"
+  },
+  {
+    "RK": 166,
+    "TIERS": 11,
+    "PLAYER NAME": "Clyde Edwards-Helaire",
+    "TEAM": "KC",
+    "POS": "RB58",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 167,
+    "TIERS": 11,
+    "PLAYER NAME": "Irv Smith Jr.",
+    "TEAM": "CIN",
+    "POS": "TE21",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 168,
+    "TIERS": 11,
+    "PLAYER NAME": "Jordan Love",
+    "TEAM": "GB",
+    "POS": "QB22",
+    "BYE WEEK": 6,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -15
+  },
+  {
+    "RK": 169,
+    "TIERS": 11,
+    "PLAYER NAME": "Alec Pierce",
+    "TEAM": "IND",
+    "POS": "WR68",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+38"
+  },
+  {
+    "RK": 170,
+    "TIERS": 11,
+    "PLAYER NAME": "San Francisco 49ers",
+    "TEAM": "SF",
+    "POS": "DST1",
+    "BYE WEEK": 9,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -45
+  },
+  {
+    "RK": 171,
+    "TIERS": 11,
+    "PLAYER NAME": "Van Jefferson",
+    "TEAM": "LAR",
+    "POS": "WR69",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+43"
+  },
+  {
+    "RK": 172,
+    "TIERS": 11,
+    "PLAYER NAME": "Isaiah Hodgins",
+    "TEAM": "NYG",
+    "POS": "WR70",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+48"
+  },
+  {
+    "RK": 173,
+    "TIERS": 11,
+    "PLAYER NAME": "Trey McBride",
+    "TEAM": "ARI",
+    "POS": "TE22",
+    "BYE WEEK": 14,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+77"
+  },
+  {
+    "RK": 174,
+    "TIERS": 11,
+    "PLAYER NAME": "Hunter Renfrow",
+    "TEAM": "LV",
+    "POS": "WR71",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+64"
+  },
+  {
+    "RK": 175,
+    "TIERS": 11,
+    "PLAYER NAME": "Rashee Rice",
+    "TEAM": "KC",
+    "POS": "WR72",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 176,
+    "TIERS": 11,
+    "PLAYER NAME": "Dallas Cowboys",
+    "TEAM": "DAL",
+    "POS": "DST2",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -38
+  },
+  {
+    "RK": 177,
+    "TIERS": 11,
+    "PLAYER NAME": "Marquez Valdes-Scantling",
+    "TEAM": "KC",
+    "POS": "WR73",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+42"
+  },
+  {
+    "RK": 178,
+    "TIERS": 11,
+    "PLAYER NAME": "Marvin Mims Jr.",
+    "TEAM": "DEN",
+    "POS": "WR74",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+44"
+  },
+  {
+    "RK": 179,
+    "TIERS": 11,
+    "PLAYER NAME": "Buffalo Bills",
+    "TEAM": "BUF",
+    "POS": "DST3",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -34
+  },
+  {
+    "RK": 180,
+    "TIERS": 11,
+    "PLAYER NAME": "Jayden Reed",
+    "TEAM": "GB",
+    "POS": "WR75",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+36"
+  },
+  {
+    "RK": 181,
+    "TIERS": 11,
+    "PLAYER NAME": "Jonathan Mingo",
+    "TEAM": "CAR",
+    "POS": "WR76",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -10
+  },
+  {
+    "RK": 182,
+    "TIERS": 11,
+    "PLAYER NAME": "Hunter Henry",
+    "TEAM": "NE",
+    "POS": "TE23",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+12"
+  },
+  {
+    "RK": 183,
+    "TIERS": 11,
+    "PLAYER NAME": "Philadelphia Eagles",
+    "TEAM": "PHI",
+    "POS": "DST4",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -50
+  },
+  {
+    "RK": 184,
+    "TIERS": 11,
+    "PLAYER NAME": "Bryce Young",
+    "TEAM": "CAR",
+    "POS": "QB23",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -43
+  },
+  {
+    "RK": 185,
+    "TIERS": 11,
+    "PLAYER NAME": "Brock Purdy",
+    "TEAM": "SF",
+    "POS": "QB24",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -41
+  },
+  {
+    "RK": 186,
+    "TIERS": 11,
+    "PLAYER NAME": "Zamir White",
+    "TEAM": "LV",
+    "POS": "RB59",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+16"
+  },
+  {
+    "RK": 187,
+    "TIERS": 11,
+    "PLAYER NAME": "Hayden Hurst",
+    "TEAM": "CAR",
+    "POS": "TE24",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+6"
+  },
+  {
+    "RK": 188,
+    "TIERS": 11,
+    "PLAYER NAME": "Wan'Dale Robinson",
+    "TEAM": "NYG",
+    "POS": "WR77",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+36"
+  },
+  {
+    "RK": 189,
+    "TIERS": 11,
+    "PLAYER NAME": "John Metchie III",
+    "TEAM": "HOU",
+    "POS": "WR78",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+29"
+  },
+  {
+    "RK": 190,
+    "TIERS": 11,
+    "PLAYER NAME": "New York Jets",
+    "TEAM": "NYJ",
+    "POS": "DST5",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -17
+  },
+  {
+    "RK": 191,
+    "TIERS": 11,
+    "PLAYER NAME": "New England Patriots",
+    "TEAM": "NE",
+    "POS": "DST6",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -28
+  },
+  {
+    "RK": 192,
+    "TIERS": 11,
+    "PLAYER NAME": "Taysom Hill",
+    "TEAM": "NO",
+    "POS": "TE25",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -16
+  },
+  {
+    "RK": 193,
+    "TIERS": 11,
+    "PLAYER NAME": "Kyler Murray",
+    "TEAM": "ARI",
+    "POS": "QB25",
+    "BYE WEEK": 14,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -24
+  },
+  {
+    "RK": 194,
+    "TIERS": 11,
+    "PLAYER NAME": "Leonard Fournette",
+    "TEAM": "FA",
+    "POS": "RB60",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -14
+  },
+  {
+    "RK": 195,
+    "TIERS": 11,
+    "PLAYER NAME": "Parris Campbell",
+    "TEAM": "NYG",
+    "POS": "WR79",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+17"
+  },
+  {
+    "RK": 196,
+    "TIERS": 11,
+    "PLAYER NAME": "Baltimore Ravens",
+    "TEAM": "BAL",
+    "POS": "DST7",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -22
+  },
+  {
+    "RK": 197,
+    "TIERS": 11,
+    "PLAYER NAME": "Darius Slayton",
+    "TEAM": "NYG",
+    "POS": "WR80",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+73"
+  },
+  {
+    "RK": 198,
+    "TIERS": 11,
+    "PLAYER NAME": "Chase Brown",
+    "TEAM": "CIN",
+    "POS": "RB61",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+13"
+  },
+  {
+    "RK": 199,
+    "TIERS": 12,
+    "PLAYER NAME": "Tyjae Spears",
+    "TEAM": "TEN",
+    "POS": "RB62",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+1"
+  },
+  {
+    "RK": 200,
+    "TIERS": 12,
+    "PLAYER NAME": "Joshua Palmer",
+    "TEAM": "LAC",
+    "POS": "WR81",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+107"
+  },
+  {
+    "RK": 201,
+    "TIERS": 12,
+    "PLAYER NAME": "Dawson Knox",
+    "TEAM": "BUF",
+    "POS": "TE26",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -12
+  },
+  {
+    "RK": 202,
+    "TIERS": 12,
+    "PLAYER NAME": "DeVante Parker",
+    "TEAM": "NE",
+    "POS": "WR82",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+67"
+  },
+  {
+    "RK": 203,
+    "TIERS": 12,
+    "PLAYER NAME": "Chase Claypool",
+    "TEAM": "CHI",
+    "POS": "WR83",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+88"
+  },
+  {
+    "RK": 204,
+    "TIERS": 12,
+    "PLAYER NAME": "Denver Broncos",
+    "TEAM": "DEN",
+    "POS": "DST8",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 205,
+    "TIERS": 12,
+    "PLAYER NAME": "Michael Carter",
+    "TEAM": "NYJ",
+    "POS": "RB63",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -9
+  },
+  {
+    "RK": 206,
+    "TIERS": 12,
+    "PLAYER NAME": "Tyquan Thornton",
+    "TEAM": "NE",
+    "POS": "WR84",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+92"
+  },
+  {
+    "RK": 207,
+    "TIERS": 12,
+    "PLAYER NAME": "Jalin Hyatt",
+    "TEAM": "NYG",
+    "POS": "WR85",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 208,
+    "TIERS": 12,
+    "PLAYER NAME": "Terrace Marshall Jr.",
+    "TEAM": "CAR",
+    "POS": "WR86",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+86"
+  },
+  {
+    "RK": 209,
+    "TIERS": 12,
+    "PLAYER NAME": "Khalil Shakir",
+    "TEAM": "BUF",
+    "POS": "WR87",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+87"
+  },
+  {
+    "RK": 210,
+    "TIERS": 12,
+    "PLAYER NAME": "Robert Woods",
+    "TEAM": "HOU",
+    "POS": "WR88",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+83"
+  },
+  {
+    "RK": 211,
+    "TIERS": 12,
+    "PLAYER NAME": "Kareem Hunt",
+    "TEAM": "FA",
+    "POS": "RB64",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -34
+  },
+  {
+    "RK": 212,
+    "TIERS": 12,
+    "PLAYER NAME": "Justin Tucker",
+    "TEAM": "BAL",
+    "POS": "K1",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -82
+  },
+  {
+    "RK": 213,
+    "TIERS": 12,
+    "PLAYER NAME": "Mecole Hardman Jr.",
+    "TEAM": "NYJ",
+    "POS": "WR89",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+47"
+  },
+  {
+    "RK": 214,
+    "TIERS": 12,
+    "PLAYER NAME": "Cordarrelle Patterson",
+    "TEAM": "ATL",
+    "POS": "RB65",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -47
+  },
+  {
+    "RK": 215,
+    "TIERS": 12,
+    "PLAYER NAME": "Josh Downs",
+    "TEAM": "IND",
+    "POS": "WR90",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+48"
+  },
+  {
+    "RK": 216,
+    "TIERS": 12,
+    "PLAYER NAME": "Mac Jones",
+    "TEAM": "NE",
+    "POS": "QB26",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -29
+  },
+  {
+    "RK": 217,
+    "TIERS": 12,
+    "PLAYER NAME": "Joshua Kelley",
+    "TEAM": "LAC",
+    "POS": "RB66",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+29"
+  },
+  {
+    "RK": 218,
+    "TIERS": 12,
+    "PLAYER NAME": "Noah Fant",
+    "TEAM": "SEA",
+    "POS": "TE27",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+49"
+  },
+  {
+    "RK": 219,
+    "TIERS": 12,
+    "PLAYER NAME": "Daniel Carlson",
+    "TEAM": "LV",
+    "POS": "K2",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -71
+  },
+  {
+    "RK": 220,
+    "TIERS": 12,
+    "PLAYER NAME": "Michael Mayer",
+    "TEAM": "LV",
+    "POS": "TE28",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -39
+  },
+  {
+    "RK": 221,
+    "TIERS": 12,
+    "PLAYER NAME": "Tyler Bass",
+    "TEAM": "BUF",
+    "POS": "K3",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -59
+  },
+  {
+    "RK": 222,
+    "TIERS": 12,
+    "PLAYER NAME": "Ryan Tannehill",
+    "TEAM": "TEN",
+    "POS": "QB27",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 223,
+    "TIERS": 12,
+    "PLAYER NAME": "Allen Robinson II",
+    "TEAM": "PIT",
+    "POS": "WR91",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+57"
+  },
+  {
+    "RK": 224,
+    "TIERS": 12,
+    "PLAYER NAME": "Zach Evans",
+    "TEAM": "LAR",
+    "POS": "RB67",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+21"
+  },
+  {
+    "RK": 225,
+    "TIERS": 12,
+    "PLAYER NAME": "Corey Davis",
+    "TEAM": "NYJ",
+    "POS": "WR92",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+99"
+  },
+  {
+    "RK": 226,
+    "TIERS": 12,
+    "PLAYER NAME": "Harrison Butker",
+    "TEAM": "KC",
+    "POS": "K4",
+    "BYE WEEK": 10,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -58
+  },
+  {
+    "RK": 227,
+    "TIERS": 12,
+    "PLAYER NAME": "Kansas City Chiefs",
+    "TEAM": "KC",
+    "POS": "DST9",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+9"
+  },
+  {
+    "RK": 228,
+    "TIERS": 12,
+    "PLAYER NAME": "New Orleans Saints",
+    "TEAM": "NO",
+    "POS": "DST10",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 229,
+    "TIERS": 12,
+    "PLAYER NAME": "Pittsburgh Steelers",
+    "TEAM": "PIT",
+    "POS": "DST11",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -19
+  },
+  {
+    "RK": 230,
+    "TIERS": 12,
+    "PLAYER NAME": "Jimmy Garoppolo",
+    "TEAM": "LV",
+    "POS": "QB28",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -45
+  },
+  {
+    "RK": 231,
+    "TIERS": 12,
+    "PLAYER NAME": "C.J. Stroud",
+    "TEAM": "HOU",
+    "POS": "QB29",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -82
+  },
+  {
+    "RK": 232,
+    "TIERS": 12,
+    "PLAYER NAME": "Israel Abanikanda",
+    "TEAM": "NYJ",
+    "POS": "RB68",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+44"
+  },
+  {
+    "RK": 233,
+    "TIERS": 12,
+    "PLAYER NAME": "Evan McPherson",
+    "TEAM": "CIN",
+    "POS": "K5",
+    "BYE WEEK": 7,
+    "SOS SEASON": "0 out of 5 stars",
+    "ECR VS. ADP": -72
+  },
+  {
+    "RK": 234,
+    "TIERS": 12,
+    "PLAYER NAME": "Pierre Strong Jr.",
+    "TEAM": "NE",
+    "POS": "RB69",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+23"
+  },
+  {
+    "RK": 235,
+    "TIERS": 12,
+    "PLAYER NAME": "Cincinnati Bengals",
+    "TEAM": "CIN",
+    "POS": "DST12",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+16"
+  },
+  {
+    "RK": 236,
+    "TIERS": 12,
+    "PLAYER NAME": "Jake Ferguson",
+    "TEAM": "DAL",
+    "POS": "TE29",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -30
+  },
+  {
+    "RK": 237,
+    "TIERS": 12,
+    "PLAYER NAME": "Chase Edmonds",
+    "TEAM": "TB",
+    "POS": "RB70",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+29"
+  },
+  {
+    "RK": 238,
+    "TIERS": 12,
+    "PLAYER NAME": "Jelani Woods",
+    "TEAM": "IND",
+    "POS": "TE30",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+26"
+  },
+  {
+    "RK": 239,
+    "TIERS": 12,
+    "PLAYER NAME": "Russell Gage",
+    "TEAM": "TB",
+    "POS": "WR93",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+91"
+  },
+  {
+    "RK": 240,
+    "TIERS": 12,
+    "PLAYER NAME": "Richie James Jr.",
+    "TEAM": "KC",
+    "POS": "WR94",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+37"
+  },
+  {
+    "RK": 241,
+    "TIERS": 12,
+    "PLAYER NAME": "Isaiah Likely",
+    "TEAM": "BAL",
+    "POS": "TE31",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -7
+  },
+  {
+    "RK": 242,
+    "TIERS": 12,
+    "PLAYER NAME": "Zach Ertz",
+    "TEAM": "ARI",
+    "POS": "TE32",
+    "BYE WEEK": 14,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -52
+  },
+  {
+    "RK": 243,
+    "TIERS": 12,
+    "PLAYER NAME": "Washington Commanders",
+    "TEAM": "WAS",
+    "POS": "DST13",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -8
+  },
+  {
+    "RK": 244,
+    "TIERS": 13,
+    "PLAYER NAME": "Miami Dolphins",
+    "TEAM": "MIA",
+    "POS": "DST14",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -58
+  },
+  {
+    "RK": 245,
+    "TIERS": 13,
+    "PLAYER NAME": "Younghoe Koo",
+    "TEAM": "ATL",
+    "POS": "K6",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -53
+  },
+  {
+    "RK": 246,
+    "TIERS": 13,
+    "PLAYER NAME": "Tampa Bay Buccaneers",
+    "TEAM": "TB",
+    "POS": "DST15",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+25"
+  },
+  {
+    "RK": 247,
+    "TIERS": 13,
+    "PLAYER NAME": "Los Angeles Chargers",
+    "TEAM": "LAC",
+    "POS": "DST16",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+62"
+  },
+  {
+    "RK": 248,
+    "TIERS": 13,
+    "PLAYER NAME": "Cleveland Browns",
+    "TEAM": "CLE",
+    "POS": "DST17",
+    "BYE WEEK": 5,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -9
+  },
+  {
+    "RK": 249,
+    "TIERS": 13,
+    "PLAYER NAME": "Luke Musgrave",
+    "TEAM": "GB",
+    "POS": "TE33",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -5
+  },
+  {
+    "RK": 250,
+    "TIERS": 13,
+    "PLAYER NAME": "Ty Chandler",
+    "TEAM": "MIN",
+    "POS": "RB71",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -3
+  },
+  {
+    "RK": 251,
+    "TIERS": 13,
+    "PLAYER NAME": "Jason Sanders",
+    "TEAM": "MIA",
+    "POS": "K7",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 252,
+    "TIERS": 13,
+    "PLAYER NAME": "Mack Hollins",
+    "TEAM": "ATL",
+    "POS": "WR95",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+68"
+  },
+  {
+    "RK": 253,
+    "TIERS": 13,
+    "PLAYER NAME": "Desmond Ridder",
+    "TEAM": "ATL",
+    "POS": "QB30",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -21
+  },
+  {
+    "RK": 254,
+    "TIERS": 13,
+    "PLAYER NAME": "Josh Reynolds",
+    "TEAM": "DET",
+    "POS": "WR96",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 255,
+    "TIERS": 13,
+    "PLAYER NAME": "Marvin Jones Jr.",
+    "TEAM": "DET",
+    "POS": "WR97",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+56"
+  },
+  {
+    "RK": 256,
+    "TIERS": 13,
+    "PLAYER NAME": "Brandon McManus",
+    "TEAM": "JAC",
+    "POS": "K8",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -41
+  },
+  {
+    "RK": 257,
+    "TIERS": 13,
+    "PLAYER NAME": "Sam Howell",
+    "TEAM": "WAS",
+    "POS": "QB31",
+    "BYE WEEK": 14,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -44
+  },
+  {
+    "RK": 258,
+    "TIERS": 13,
+    "PLAYER NAME": "Green Bay Packers",
+    "TEAM": "GB",
+    "POS": "DST18",
+    "BYE WEEK": 6,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": 0
+  },
+  {
+    "RK": 259,
+    "TIERS": 13,
+    "PLAYER NAME": "Cade Otton",
+    "TEAM": "TB",
+    "POS": "TE34",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+20"
+  },
+  {
+    "RK": 260,
+    "TIERS": 13,
+    "PLAYER NAME": "Jacksonville Jaguars",
+    "TEAM": "JAC",
+    "POS": "DST19",
+    "BYE WEEK": 9,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -35
+  },
+  {
+    "RK": 261,
+    "TIERS": 13,
+    "PLAYER NAME": "Jake Elliott",
+    "TEAM": "PHI",
+    "POS": "K9",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -53
+  },
+  {
+    "RK": 262,
+    "TIERS": 13,
+    "PLAYER NAME": "DeWayne McBride",
+    "TEAM": "MIN",
+    "POS": "RB72",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 263,
+    "TIERS": 13,
+    "PLAYER NAME": "Nick Folk",
+    "TEAM": "NE",
+    "POS": "K10",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -26
+  },
+  {
+    "RK": 264,
+    "TIERS": 13,
+    "PLAYER NAME": "Jason Myers",
+    "TEAM": "SEA",
+    "POS": "K11",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -66
+  },
+  {
+    "RK": 265,
+    "TIERS": 13,
+    "PLAYER NAME": "Cedric Tillman",
+    "TEAM": "CLE",
+    "POS": "WR98",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+58"
+  },
+  {
+    "RK": 266,
+    "TIERS": 13,
+    "PLAYER NAME": "Evan Hull",
+    "TEAM": "IND",
+    "POS": "RB73",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+40"
+  },
+  {
+    "RK": 267,
+    "TIERS": 13,
+    "PLAYER NAME": "Justyn Ross",
+    "TEAM": "KC",
+    "POS": "WR99",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 268,
+    "TIERS": 13,
+    "PLAYER NAME": "Indianapolis Colts",
+    "TEAM": "IND",
+    "POS": "DST20",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -3
+  },
+  {
+    "RK": 269,
+    "TIERS": 13,
+    "PLAYER NAME": "Matt Gay",
+    "TEAM": "IND",
+    "POS": "K12",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -20
+  },
+  {
+    "RK": 270,
+    "TIERS": 13,
+    "PLAYER NAME": "Graham Gano",
+    "TEAM": "NYG",
+    "POS": "K13",
+    "BYE WEEK": 13,
+    "SOS SEASON": "0 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 271,
+    "TIERS": 13,
+    "PLAYER NAME": "D'Ernest Johnson",
+    "TEAM": "JAC",
+    "POS": "RB74",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+29"
+  },
+  {
+    "RK": 272,
+    "TIERS": 13,
+    "PLAYER NAME": "Logan Thomas",
+    "TEAM": "WAS",
+    "POS": "TE35",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+3"
+  },
+  {
+    "RK": 273,
+    "TIERS": 13,
+    "PLAYER NAME": "Tank Dell",
+    "TEAM": "HOU",
+    "POS": "WR100",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -20
+  },
+  {
+    "RK": 274,
+    "TIERS": 13,
+    "PLAYER NAME": "Sterling Shepard",
+    "TEAM": "NYG",
+    "POS": "WR101",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -2
+  },
+  {
+    "RK": 275,
+    "TIERS": 13,
+    "PLAYER NAME": "Isaiah Spiller",
+    "TEAM": "LAC",
+    "POS": "RB75",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+41"
+  },
+  {
+    "RK": 276,
+    "TIERS": 13,
+    "PLAYER NAME": "Greg Joseph",
+    "TEAM": "MIN",
+    "POS": "K14",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+7"
+  },
+  {
+    "RK": 277,
+    "TIERS": 13,
+    "PLAYER NAME": "Malik Davis",
+    "TEAM": "DAL",
+    "POS": "RB76",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+26"
+  },
+  {
+    "RK": 278,
+    "TIERS": 13,
+    "PLAYER NAME": "Tyler Conklin",
+    "TEAM": "NYJ",
+    "POS": "TE36",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -75
+  },
+  {
+    "RK": 279,
+    "TIERS": 13,
+    "PLAYER NAME": "Carolina Panthers",
+    "TEAM": "CAR",
+    "POS": "DST21",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+13"
+  },
+  {
+    "RK": 280,
+    "TIERS": 13,
+    "PLAYER NAME": "Kyren Williams",
+    "TEAM": "LAR",
+    "POS": "RB77",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+21"
+  },
+  {
+    "RK": 281,
+    "TIERS": 13,
+    "PLAYER NAME": "Deuce Vaughn",
+    "TEAM": "DAL",
+    "POS": "RB78",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -27
+  },
+  {
+    "RK": 282,
+    "TIERS": 13,
+    "PLAYER NAME": "Wil Lutz",
+    "TEAM": "NO",
+    "POS": "K15",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -9
+  },
+  {
+    "RK": 283,
+    "TIERS": 13,
+    "PLAYER NAME": "Latavius Murray",
+    "TEAM": "BUF",
+    "POS": "RB79",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+36"
+  },
+  {
+    "RK": 284,
+    "TIERS": 13,
+    "PLAYER NAME": "Greg Zuerlein",
+    "TEAM": "NYJ",
+    "POS": "K16",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -36
+  },
+  {
+    "RK": 285,
+    "TIERS": 13,
+    "PLAYER NAME": "Quez Watkins",
+    "TEAM": "PHI",
+    "POS": "WR102",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 286,
+    "TIERS": 13,
+    "PLAYER NAME": "Kendrick Bourne",
+    "TEAM": "NE",
+    "POS": "WR103",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 287,
+    "TIERS": 13,
+    "PLAYER NAME": "Nick Westbrook-Ikhine",
+    "TEAM": "TEN",
+    "POS": "WR104",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 288,
+    "TIERS": 13,
+    "PLAYER NAME": "Eric Gray",
+    "TEAM": "NYG",
+    "POS": "RB80",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+17"
+  },
+  {
+    "RK": 289,
+    "TIERS": 14,
+    "PLAYER NAME": "Zack Moss",
+    "TEAM": "IND",
+    "POS": "RB81",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+8"
+  },
+  {
+    "RK": 290,
+    "TIERS": 14,
+    "PLAYER NAME": "Zonovan Knight",
+    "TEAM": "NYJ",
+    "POS": "RB82",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 291,
+    "TIERS": 14,
+    "PLAYER NAME": "Los Angeles Rams",
+    "TEAM": "LAR",
+    "POS": "DST22",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -10
+  },
+  {
+    "RK": 292,
+    "TIERS": 14,
+    "PLAYER NAME": "Baker Mayfield",
+    "TEAM": "TB",
+    "POS": "QB32",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -49
+  },
+  {
+    "RK": 293,
+    "TIERS": 14,
+    "PLAYER NAME": "Kayshon Boutte",
+    "TEAM": "NE",
+    "POS": "WR105",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+35"
+  },
+  {
+    "RK": 294,
+    "TIERS": 14,
+    "PLAYER NAME": "Matt Breida",
+    "TEAM": "NYG",
+    "POS": "RB83",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "+18"
+  },
+  {
+    "RK": 295,
+    "TIERS": 14,
+    "PLAYER NAME": "Puka Nacua",
+    "TEAM": "LAR",
+    "POS": "WR106",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -13
+  },
+  {
+    "RK": 296,
+    "TIERS": 14,
+    "PLAYER NAME": "Greg Dortch",
+    "TEAM": "ARI",
+    "POS": "WR107",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+14"
+  },
+  {
+    "RK": 297,
+    "TIERS": 14,
+    "PLAYER NAME": "Laviska Shenault Jr.",
+    "TEAM": "CAR",
+    "POS": "WR108",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 298,
+    "TIERS": 14,
+    "PLAYER NAME": "New York Giants",
+    "TEAM": "NYG",
+    "POS": "DST23",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -57
+  },
+  {
+    "RK": 299,
+    "TIERS": 14,
+    "PLAYER NAME": "Daniel Bellinger",
+    "TEAM": "NYG",
+    "POS": "TE37",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "+22"
+  },
+  {
+    "RK": 300,
+    "TIERS": 14,
+    "PLAYER NAME": "Jordan Mason",
+    "TEAM": "SF",
+    "POS": "RB84",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "+35"
+  },
+  {
+    "RK": 301,
+    "TIERS": 14,
+    "PLAYER NAME": "Boston Scott",
+    "TEAM": "PHI",
+    "POS": "RB85",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 302,
+    "TIERS": 14,
+    "PLAYER NAME": "Austin Hooper",
+    "TEAM": "LV",
+    "POS": "TE38",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 303,
+    "TIERS": 14,
+    "PLAYER NAME": "Seattle Seahawks",
+    "TEAM": "SEA",
+    "POS": "DST24",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -86
+  },
+  {
+    "RK": 304,
+    "TIERS": 14,
+    "PLAYER NAME": "Isaiah McKenzie",
+    "TEAM": "IND",
+    "POS": "WR109",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 305,
+    "TIERS": 14,
+    "PLAYER NAME": "Ronald Jones II",
+    "TEAM": "DAL",
+    "POS": "RB86",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+13"
+  },
+  {
+    "RK": 306,
+    "TIERS": 14,
+    "PLAYER NAME": "Keaontay Ingram",
+    "TEAM": "ARI",
+    "POS": "RB87",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 307,
+    "TIERS": 14,
+    "PLAYER NAME": "Detroit Lions",
+    "TEAM": "DET",
+    "POS": "DST25",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -45
+  },
+  {
+    "RK": 308,
+    "TIERS": 14,
+    "PLAYER NAME": "Sean Tucker",
+    "TEAM": "TB",
+    "POS": "RB88",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 309,
+    "TIERS": 14,
+    "PLAYER NAME": "Michael Wilson",
+    "TEAM": "ARI",
+    "POS": "WR110",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -1
+  },
+  {
+    "RK": 310,
+    "TIERS": 14,
+    "PLAYER NAME": "Riley Patterson",
+    "TEAM": "DET",
+    "POS": "K17",
+    "BYE WEEK": 9,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -42
+  },
+  {
+    "RK": 311,
+    "TIERS": 14,
+    "PLAYER NAME": "Luke Schoonmaker",
+    "TEAM": "DAL",
+    "POS": "TE39",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "+2"
+  },
+  {
+    "RK": 312,
+    "TIERS": 14,
+    "PLAYER NAME": "Braxton Berrios",
+    "TEAM": "MIA",
+    "POS": "WR111",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 313,
+    "TIERS": 14,
+    "PLAYER NAME": "Chris Boswell",
+    "TEAM": "PIT",
+    "POS": "K18",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -27
+  },
+  {
+    "RK": 314,
+    "TIERS": 14,
+    "PLAYER NAME": "Matt Prater",
+    "TEAM": "ARI",
+    "POS": "K19",
+    "BYE WEEK": 14,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -59
+  },
+  {
+    "RK": 315,
+    "TIERS": 14,
+    "PLAYER NAME": "Tim Patrick",
+    "TEAM": "DEN",
+    "POS": "WR112",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -73
+  },
+  {
+    "RK": 316,
+    "TIERS": 14,
+    "PLAYER NAME": "David Bell",
+    "TEAM": "CLE",
+    "POS": "WR113",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 317,
+    "TIERS": 14,
+    "PLAYER NAME": "James Robinson",
+    "TEAM": "NYG",
+    "POS": "RB89",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -32
+  },
+  {
+    "RK": 318,
+    "TIERS": 14,
+    "PLAYER NAME": "Tennessee Titans",
+    "TEAM": "TEN",
+    "POS": "DST26",
+    "BYE WEEK": 7,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 319,
+    "TIERS": 14,
+    "PLAYER NAME": "JaMycal Hasty",
+    "TEAM": "JAC",
+    "POS": "RB90",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 320,
+    "TIERS": 14,
+    "PLAYER NAME": "Tutu Atwell",
+    "TEAM": "LAR",
+    "POS": "WR114",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 321,
+    "TIERS": 14,
+    "PLAYER NAME": "Deneric Prince",
+    "TEAM": "KC",
+    "POS": "RB91",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -6
+  },
+  {
+    "RK": 322,
+    "TIERS": 14,
+    "PLAYER NAME": "Dustin Hopkins",
+    "TEAM": "LAC",
+    "POS": "K20",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 323,
+    "TIERS": 14,
+    "PLAYER NAME": "Kyle Philips",
+    "TEAM": "TEN",
+    "POS": "WR115",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 324,
+    "TIERS": 14,
+    "PLAYER NAME": "Devin Duvernay",
+    "TEAM": "BAL",
+    "POS": "WR116",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 325,
+    "TIERS": 14,
+    "PLAYER NAME": "Trey Lance",
+    "TEAM": "SF",
+    "POS": "QB33",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -128
+  },
+  {
+    "RK": 326,
+    "TIERS": 14,
+    "PLAYER NAME": "Robbie Chosen",
+    "TEAM": "MIA",
+    "POS": "WR117",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 327,
+    "TIERS": 14,
+    "PLAYER NAME": "Albert Okwuegbunam",
+    "TEAM": "DEN",
+    "POS": "TE40",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 328,
+    "TIERS": 14,
+    "PLAYER NAME": "Jake Moody",
+    "TEAM": "SF",
+    "POS": "K21",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -100
+  },
+  {
+    "RK": 329,
+    "TIERS": 14,
+    "PLAYER NAME": "KJ Hamler",
+    "TEAM": "FA",
+    "POS": "WR118",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 330,
+    "TIERS": 14,
+    "PLAYER NAME": "Deon Jackson",
+    "TEAM": "IND",
+    "POS": "RB92",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -31
+  },
+  {
+    "RK": 331,
+    "TIERS": 14,
+    "PLAYER NAME": "Robbie Gould",
+    "TEAM": "FA",
+    "POS": "K22",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -42
+  },
+  {
+    "RK": 332,
+    "TIERS": 14,
+    "PLAYER NAME": "Trayveon Williams",
+    "TEAM": "CIN",
+    "POS": "RB93",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -5
+  },
+  {
+    "RK": 333,
+    "TIERS": 14,
+    "PLAYER NAME": "Ryan Succop",
+    "TEAM": "FA",
+    "POS": "K23",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 334,
+    "TIERS": 14,
+    "PLAYER NAME": "Minnesota Vikings",
+    "TEAM": "MIN",
+    "POS": "DST27",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -104
+  },
+  {
+    "RK": 335,
+    "TIERS": 14,
+    "PLAYER NAME": "Hassan Haskins",
+    "TEAM": "TEN",
+    "POS": "RB94",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 336,
+    "TIERS": 14,
+    "PLAYER NAME": "Ka'imi Fairbairn",
+    "TEAM": "HOU",
+    "POS": "K24",
+    "BYE WEEK": 7,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 337,
+    "TIERS": 15,
+    "PLAYER NAME": "Cairo Santos",
+    "TEAM": "CHI",
+    "POS": "K25",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 338,
+    "TIERS": 15,
+    "PLAYER NAME": "Chris Rodriguez Jr.",
+    "TEAM": "WAS",
+    "POS": "RB95",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 339,
+    "TIERS": 15,
+    "PLAYER NAME": "Jonnu Smith",
+    "TEAM": "ATL",
+    "POS": "TE41",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 340,
+    "TIERS": 15,
+    "PLAYER NAME": "Tyler Scott",
+    "TEAM": "CHI",
+    "POS": "WR119",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 341,
+    "TIERS": 15,
+    "PLAYER NAME": "Brett Maher",
+    "TEAM": "DEN",
+    "POS": "K26",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -118
+  },
+  {
+    "RK": 342,
+    "TIERS": 15,
+    "PLAYER NAME": "Cade York",
+    "TEAM": "CLE",
+    "POS": "K27",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -11
+  },
+  {
+    "RK": 343,
+    "TIERS": 15,
+    "PLAYER NAME": "Tyrion Davis-Price",
+    "TEAM": "SF",
+    "POS": "RB96",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 344,
+    "TIERS": 15,
+    "PLAYER NAME": "Atlanta Falcons",
+    "TEAM": "ATL",
+    "POS": "DST28",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -111
+  },
+  {
+    "RK": 345,
+    "TIERS": 15,
+    "PLAYER NAME": "Robert Tonyan",
+    "TEAM": "CHI",
+    "POS": "TE42",
+    "BYE WEEK": 13,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 346,
+    "TIERS": 15,
+    "PLAYER NAME": "Kenny McIntosh",
+    "TEAM": "SEA",
+    "POS": "RB97",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -32
+  },
+  {
+    "RK": 347,
+    "TIERS": 15,
+    "PLAYER NAME": "Melvin Gordon III",
+    "TEAM": "BAL",
+    "POS": "RB98",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -30
+  },
+  {
+    "RK": 348,
+    "TIERS": 15,
+    "PLAYER NAME": "Deonte Harty",
+    "TEAM": "BUF",
+    "POS": "WR120",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 349,
+    "TIERS": 15,
+    "PLAYER NAME": "Ben Skowronek",
+    "TEAM": "LAR",
+    "POS": "WR121",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 350,
+    "TIERS": 15,
+    "PLAYER NAME": "Darnell Washington",
+    "TEAM": "PIT",
+    "POS": "TE43",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -28
+  },
+  {
+    "RK": 351,
+    "TIERS": 15,
+    "PLAYER NAME": "Will Levis",
+    "TEAM": "TEN",
+    "POS": "QB34",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -77
+  },
+  {
+    "RK": 352,
+    "TIERS": 15,
+    "PLAYER NAME": "Cameron Dicker",
+    "TEAM": "LAC",
+    "POS": "K28",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -125
+  },
+  {
+    "RK": 353,
+    "TIERS": 15,
+    "PLAYER NAME": "Gardner Minshew II",
+    "TEAM": "IND",
+    "POS": "QB35",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -75
+  },
+  {
+    "RK": 354,
+    "TIERS": 15,
+    "PLAYER NAME": "Michael Badgley",
+    "TEAM": "WAS",
+    "POS": "K29",
+    "BYE WEEK": 14,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -102
+  },
+  {
+    "RK": 355,
+    "TIERS": 15,
+    "PLAYER NAME": "Eddy Pineiro",
+    "TEAM": "CAR",
+    "POS": "K30",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -65
+  },
+  {
+    "RK": 356,
+    "TIERS": 15,
+    "PLAYER NAME": "Nelson Agholor",
+    "TEAM": "BAL",
+    "POS": "WR122",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 357,
+    "TIERS": 15,
+    "PLAYER NAME": "Chicago Bears",
+    "TEAM": "CHI",
+    "POS": "DST29",
+    "BYE WEEK": 13,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": -126
+  },
+  {
+    "RK": 358,
+    "TIERS": 15,
+    "PLAYER NAME": "Chris Evans",
+    "TEAM": "CIN",
+    "POS": "RB99",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 359,
+    "TIERS": 15,
+    "PLAYER NAME": "DeeJay Dallas",
+    "TEAM": "SEA",
+    "POS": "RB100",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 360,
+    "TIERS": 15,
+    "PLAYER NAME": "Arizona Cardinals",
+    "TEAM": "ARI",
+    "POS": "DST30",
+    "BYE WEEK": 14,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 361,
+    "TIERS": 15,
+    "PLAYER NAME": "A.T. Perry",
+    "TEAM": "NO",
+    "POS": "WR123",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 362,
+    "TIERS": 15,
+    "PLAYER NAME": "Xavier Hutchinson",
+    "TEAM": "HOU",
+    "POS": "WR124",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -37
+  },
+  {
+    "RK": 363,
+    "TIERS": 15,
+    "PLAYER NAME": "Raheem Blackshear",
+    "TEAM": "CAR",
+    "POS": "RB101",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -31
+  },
+  {
+    "RK": 364,
+    "TIERS": 15,
+    "PLAYER NAME": "Olamide Zaccheaus",
+    "TEAM": "PHI",
+    "POS": "WR125",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 365,
+    "TIERS": 15,
+    "PLAYER NAME": "Chris Moore",
+    "TEAM": "TEN",
+    "POS": "WR126",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 366,
+    "TIERS": 15,
+    "PLAYER NAME": "Kene Nwangwu",
+    "TEAM": "MIN",
+    "POS": "RB102",
+    "BYE WEEK": 13,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 367,
+    "TIERS": 15,
+    "PLAYER NAME": "Mason Crosby",
+    "TEAM": "FA",
+    "POS": "K31",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 368,
+    "TIERS": 15,
+    "PLAYER NAME": "Jamison Crowder",
+    "TEAM": "NYG",
+    "POS": "WR127",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 369,
+    "TIERS": 15,
+    "PLAYER NAME": "Ameer Abdullah",
+    "TEAM": "LV",
+    "POS": "RB103",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 370,
+    "TIERS": 15,
+    "PLAYER NAME": "Noah Gray",
+    "TEAM": "KC",
+    "POS": "TE44",
+    "BYE WEEK": 10,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 371,
+    "TIERS": 15,
+    "PLAYER NAME": "Tucker Kraft",
+    "TEAM": "GB",
+    "POS": "TE45",
+    "BYE WEEK": 6,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 372,
+    "TIERS": 15,
+    "PLAYER NAME": "Colt McCoy",
+    "TEAM": "ARI",
+    "POS": "QB36",
+    "BYE WEEK": 14,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -84
+  },
+  {
+    "RK": 373,
+    "TIERS": 15,
+    "PLAYER NAME": "Jauan Jennings",
+    "TEAM": "SF",
+    "POS": "WR128",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 374,
+    "TIERS": 15,
+    "PLAYER NAME": "Charlie Jones",
+    "TEAM": "CIN",
+    "POS": "WR129",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 375,
+    "TIERS": 15,
+    "PLAYER NAME": "Ty Montgomery",
+    "TEAM": "NE",
+    "POS": "RB104",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 376,
+    "TIERS": 15,
+    "PLAYER NAME": "Sam Darnold",
+    "TEAM": "SF",
+    "POS": "QB37",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 377,
+    "TIERS": 15,
+    "PLAYER NAME": "Tristan Vizcaino",
+    "TEAM": "DAL",
+    "POS": "K32",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 378,
+    "TIERS": 15,
+    "PLAYER NAME": "Noah Brown",
+    "TEAM": "HOU",
+    "POS": "WR130",
+    "BYE WEEK": 7,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 379,
+    "TIERS": 15,
+    "PLAYER NAME": "Eno Benjamin",
+    "TEAM": "NO",
+    "POS": "RB105",
+    "BYE WEEK": 11,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 380,
+    "TIERS": 15,
+    "PLAYER NAME": "Jacoby Brissett",
+    "TEAM": "WAS",
+    "POS": "QB38",
+    "BYE WEEK": 14,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 381,
+    "TIERS": 15,
+    "PLAYER NAME": "Houston Texans",
+    "TEAM": "HOU",
+    "POS": "DST31",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 382,
+    "TIERS": 15,
+    "PLAYER NAME": "Foster Moreau",
+    "TEAM": "NO",
+    "POS": "TE46",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": -53
+  },
+  {
+    "RK": 383,
+    "TIERS": 15,
+    "PLAYER NAME": "Jameis Winston",
+    "TEAM": "NO",
+    "POS": "QB39",
+    "BYE WEEK": 11,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 384,
+    "TIERS": 15,
+    "PLAYER NAME": "Randall Cobb",
+    "TEAM": "NYJ",
+    "POS": "WR131",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 385,
+    "TIERS": 15,
+    "PLAYER NAME": "Jarvis Landry",
+    "TEAM": "FA",
+    "POS": "WR132",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": -81
+  },
+  {
+    "RK": 386,
+    "TIERS": 15,
+    "PLAYER NAME": "Keaton Mitchell",
+    "TEAM": "BAL",
+    "POS": "RB106",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 387,
+    "TIERS": 15,
+    "PLAYER NAME": "Salvon Ahmed",
+    "TEAM": "MIA",
+    "POS": "RB107",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 388,
+    "TIERS": 15,
+    "PLAYER NAME": "Julio Jones",
+    "TEAM": "FA",
+    "POS": "WR133",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 389,
+    "TIERS": 15,
+    "PLAYER NAME": "Justin Watson",
+    "TEAM": "KC",
+    "POS": "WR134",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 390,
+    "TIERS": 15,
+    "PLAYER NAME": "Donald Parham Jr.",
+    "TEAM": "LAC",
+    "POS": "TE47",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 391,
+    "TIERS": 15,
+    "PLAYER NAME": "Rico Dowdle",
+    "TEAM": "DAL",
+    "POS": "RB108",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 392,
+    "TIERS": 15,
+    "PLAYER NAME": "Parker Washington",
+    "TEAM": "JAC",
+    "POS": "WR135",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 393,
+    "TIERS": 15,
+    "PLAYER NAME": "Las Vegas Raiders",
+    "TEAM": "LV",
+    "POS": "DST32",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 394,
+    "TIERS": 15,
+    "PLAYER NAME": "Elijah Higgins",
+    "TEAM": "MIA",
+    "POS": "TE48",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 395,
+    "TIERS": 15,
+    "PLAYER NAME": "Trent Sherfield",
+    "TEAM": "BUF",
+    "POS": "WR136",
+    "BYE WEEK": 13,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 396,
+    "TIERS": 15,
+    "PLAYER NAME": "Ke'Shawn Vaughn",
+    "TEAM": "TB",
+    "POS": "RB109",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -60
+  },
+  {
+    "RK": 397,
+    "TIERS": 15,
+    "PLAYER NAME": "Rodrigo Blankenship",
+    "TEAM": "TB",
+    "POS": "K33",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 398,
+    "TIERS": 15,
+    "PLAYER NAME": "Mike White",
+    "TEAM": "MIA",
+    "POS": "QB40",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": -111
+  },
+  {
+    "RK": 399,
+    "TIERS": 15,
+    "PLAYER NAME": "Myles Gaskin",
+    "TEAM": "MIA",
+    "POS": "RB110",
+    "BYE WEEK": 10,
+    "SOS SEASON": "1 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 400,
+    "TIERS": 15,
+    "PLAYER NAME": "Kevin Harris",
+    "TEAM": "NE",
+    "POS": "RB111",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 401,
+    "TIERS": 15,
+    "PLAYER NAME": "Harrison Bryant",
+    "TEAM": "CLE",
+    "POS": "TE49",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 402,
+    "TIERS": 16,
+    "PLAYER NAME": "Will Dissly",
+    "TEAM": "SEA",
+    "POS": "TE50",
+    "BYE WEEK": 5,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 403,
+    "TIERS": 16,
+    "PLAYER NAME": "Kyle Trask",
+    "TEAM": "TB",
+    "POS": "QB41",
+    "BYE WEEK": 5,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -119
+  },
+  {
+    "RK": 404,
+    "TIERS": 16,
+    "PLAYER NAME": "Kenyan Drake",
+    "TEAM": "IND",
+    "POS": "RB112",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 405,
+    "TIERS": 16,
+    "PLAYER NAME": "Jalen Tolbert",
+    "TEAM": "DAL",
+    "POS": "WR137",
+    "BYE WEEK": 7,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 406,
+    "TIERS": 16,
+    "PLAYER NAME": "Trey Palmer",
+    "TEAM": "TB",
+    "POS": "WR138",
+    "BYE WEEK": 5,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": -69
+  },
+  {
+    "RK": 407,
+    "TIERS": 16,
+    "PLAYER NAME": "Peyton Hendershot",
+    "TEAM": "DAL",
+    "POS": "TE51",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 408,
+    "TIERS": 16,
+    "PLAYER NAME": "Kylen Granson",
+    "TEAM": "IND",
+    "POS": "TE52",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 409,
+    "TIERS": 16,
+    "PLAYER NAME": "Bailey Zappe",
+    "TEAM": "NE",
+    "POS": "QB42",
+    "BYE WEEK": 11,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 410,
+    "TIERS": 16,
+    "PLAYER NAME": "Kalif Raymond",
+    "TEAM": "DET",
+    "POS": "WR139",
+    "BYE WEEK": 9,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 411,
+    "TIERS": 16,
+    "PLAYER NAME": "Calvin Austin III",
+    "TEAM": "PIT",
+    "POS": "WR140",
+    "BYE WEEK": 6,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 412,
+    "TIERS": 16,
+    "PLAYER NAME": "Adam Trautman",
+    "TEAM": "DEN",
+    "POS": "TE53",
+    "BYE WEEK": 9,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 413,
+    "TIERS": 16,
+    "PLAYER NAME": "Dontrell Hilliard",
+    "TEAM": "FA",
+    "POS": "RB113",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 414,
+    "TIERS": 16,
+    "PLAYER NAME": "Marquez Callaway",
+    "TEAM": "DEN",
+    "POS": "WR141",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 415,
+    "TIERS": 16,
+    "PLAYER NAME": "Brevin Jordan",
+    "TEAM": "HOU",
+    "POS": "TE54",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 416,
+    "TIERS": 16,
+    "PLAYER NAME": "Durham Smythe",
+    "TEAM": "MIA",
+    "POS": "TE55",
+    "BYE WEEK": 10,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 417,
+    "TIERS": 16,
+    "PLAYER NAME": "Mo Alie-Cox",
+    "TEAM": "IND",
+    "POS": "TE56",
+    "BYE WEEK": 11,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 418,
+    "TIERS": 16,
+    "PLAYER NAME": "Darrell Henderson Jr.",
+    "TEAM": "FA",
+    "POS": "RB114",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 419,
+    "TIERS": 16,
+    "PLAYER NAME": "Zane Gonzalez",
+    "TEAM": "SF",
+    "POS": "K34",
+    "BYE WEEK": 9,
+    "SOS SEASON": "2 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 420,
+    "TIERS": 16,
+    "PLAYER NAME": "Joey Slye",
+    "TEAM": "WAS",
+    "POS": "K35",
+    "BYE WEEK": 14,
+    "SOS SEASON": "4 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 421,
+    "TIERS": 16,
+    "PLAYER NAME": "C.J. Uzomah",
+    "TEAM": "NYJ",
+    "POS": "TE57",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 422,
+    "TIERS": 16,
+    "PLAYER NAME": "Darrel Williams",
+    "TEAM": "FA",
+    "POS": "RB115",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 423,
+    "TIERS": 16,
+    "PLAYER NAME": "Justin Jackson",
+    "TEAM": "FA",
+    "POS": "RB116",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 424,
+    "TIERS": 16,
+    "PLAYER NAME": "Craig Reynolds",
+    "TEAM": "DET",
+    "POS": "RB117",
+    "BYE WEEK": 9,
+    "SOS SEASON": "5 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 425,
+    "TIERS": 16,
+    "PLAYER NAME": "Demarcus Robinson",
+    "TEAM": "LAR",
+    "POS": "WR142",
+    "BYE WEEK": 10,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 426,
+    "TIERS": 16,
+    "PLAYER NAME": "Ty Johnson",
+    "TEAM": "FA",
+    "POS": "RB118",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 427,
+    "TIERS": 16,
+    "PLAYER NAME": "Mark Ingram II",
+    "TEAM": "FA",
+    "POS": "RB119",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 428,
+    "TIERS": 16,
+    "PLAYER NAME": "Marlon Mack",
+    "TEAM": "ARI",
+    "POS": "RB120",
+    "BYE WEEK": 14,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 429,
+    "TIERS": 16,
+    "PLAYER NAME": "Rex Burkhead",
+    "TEAM": "FA",
+    "POS": "RB121",
+    "BYE WEEK": "-",
+    "SOS SEASON": "-",
+    "ECR VS. ADP": "-"
+  },
+  {
+    "RK": 430,
+    "TIERS": 16,
+    "PLAYER NAME": "Zack Kuntz",
+    "TEAM": "NYJ",
+    "POS": "TE58",
+    "BYE WEEK": 7,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": -96
+  },
+  {
+    "RK": 431,
+    "TIERS": 16,
+    "PLAYER NAME": "Justice Hill",
+    "TEAM": "BAL",
+    "POS": "RB122",
+    "BYE WEEK": 13,
+    "SOS SEASON": "3 out of 5 stars",
+    "ECR VS. ADP": "-"
+  }
+]

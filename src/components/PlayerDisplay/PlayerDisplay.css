@@ -1,0 +1,22 @@
+#search_panel {
+    margin: 5px auto;
+    height: 98vh;
+    width: 'max-content';
+    overflow: auto;
+}
+
+#search_bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.drafted_label {
+    border-radius: 4px;
+    background-color: yellow;
+}
+
+.drafted_label:hover {
+    cursor: pointer;
+}

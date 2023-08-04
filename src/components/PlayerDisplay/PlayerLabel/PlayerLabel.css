@@ -1,0 +1,50 @@
+.WR {
+    background-color: #9DF2A7
+}
+
+.RB {
+    background-color: #B8CAEA
+}
+
+.TE {
+    background-color: #F2E09D
+}
+
+.QB {
+    background-color: #F2A29D
+}
+
+.DEF, .DST {
+    background-color: #CDBE70
+}
+
+.PK, .K {
+    background-color: #E99DF2
+}
+
+.drafted {
+    filter: opacity(30%)
+}
+
+.undrafted {
+    filter: opacity(100%)
+}
+
+.your_pick {
+    filter: brightness(50%)
+}
+
+.player_name {
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.player_name.undrafted:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.player_name.drafted:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+}
