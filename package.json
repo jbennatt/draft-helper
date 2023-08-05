@@ -1,5 +1,6 @@
 {
   "name": "draft-helper",
+  "homepage": "http://jaredbennatt.com/draft-helper/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
