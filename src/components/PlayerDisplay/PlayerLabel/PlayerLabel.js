@@ -1,12 +1,12 @@
 import './PlayerLabel.css'
 import { forwardRef } from 'react'
 
-const PlayerLabel = forwardRef((props, useRefs) => {
-    const {player, draftedMap, setDraftedMap, pickNum, setPickNum, parentId} = props
+const PlayerLabel = forwardRef((props, allRefs = null) => {
+    const { player, draftedMap, setDraftedMap, pickNum, setPickNum, parentId } = props
 
     return (
         <p
-            ref={el => useRefs.current[getFullRefId(parentId, player.player_id)] = el}
+            ref={el => { if (allRefs) allRefs.current[getFullRefId(parentId, player.player_id)] = el }} // by defaullt don't set the ref (allRefs is null)
             className={`player_name ${stripNumFromPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
             key={player.player_id}

@@ -6,16 +6,16 @@ import { getFullRefId } from '../PlayerDisplay/PlayerLabel/PlayerLabel';
 
 
 
-const ScrollableList = forwardRef((props, useRefs) => {
+const ScrollableList = forwardRef((props, allRefs) => {
     const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId } = props
 
     return (
         <div className="app">
-            <div className="scroller" id={id} ref={el => useRefs[id] = el} anchor_player_id={anchorPlayerId}>
+            <div className="scroller" id={id} ref={el => allRefs[id] = el} anchor_player_id={anchorPlayerId}>
                 {filterPlayers(players, includeDrafted, draftedMap).map(player => {
                     return (
                         <PlayerLabel
-                            ref={useRefs}
+                            ref={allRefs}
                             key={player.player_id}
                             player={player}
                             draftedMap={draftedMap} setDraftedMap={setDraftedMap}
@@ -32,16 +32,16 @@ const ScrollableList = forwardRef((props, useRefs) => {
 
 const anchorPlayerDrop = 200
 
-export function scrollToAnchorPlayer(scrollerDivId, useRefs) {
-    const anchorPlayerId = useRefs[scrollerDivId].getAttribute("anchor_player_id")
-    const useRefKey = getFullRefId(scrollerDivId, anchorPlayerId)
+export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
+    const anchorPlayerId = allRefs[scrollerDivId].getAttribute("anchor_player_id")
+    const refKeyToPlayerLabel = getFullRefId(scrollerDivId, anchorPlayerId)
 
-    let top = useRefs.current[useRefKey].offsetTop
+    let top = allRefs.current[refKeyToPlayerLabel].offsetTop
 
     if (top < anchorPlayerDrop) top = 0 // don't scroll at all
     else top -= anchorPlayerDrop
 
-    useRefs[scrollerDivId].scrollTo({
+    allRefs[scrollerDivId].scrollTo({
         left: 0,
         top: top,
         behavior: 'smooth',

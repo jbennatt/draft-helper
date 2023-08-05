@@ -4,10 +4,7 @@ import { useRef } from 'react'
 
 const playerListPanel = 'player_list_panel'
 
-export default function PlayerList({
-    allPlayers, searchValue = '', includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum
-}) {
-    const useRefs = useRef({})
+export default function PlayerList({ allPlayers, searchValue = '', includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum }) {
 
     return (
         <div style={{ width: 'max-content' }} id={playerListPanel}>
@@ -17,7 +14,6 @@ export default function PlayerList({
                         player={player}
                         draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                         pickNum={pickNum} setPickNum={setPickNum}
-                        ref={useRefs}
                         key={player.player_id}
                         parentId={playerListPanel}
                     />
