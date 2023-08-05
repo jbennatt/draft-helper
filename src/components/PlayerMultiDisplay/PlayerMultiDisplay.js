@@ -59,8 +59,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
             if (!draftedMap.get(player.player_id)) {
                 player.currentRank = currentRank
                 ++currentRank
-                
-                if (isNextPick(yourPicks, pickNum, currentRank)) {
+
+                if (isYourPick(yourPicks, pickNum, currentRank)) {
                     player.isYourPick = true
                     panelIdToAnchorId.set(getPanelId(rowIndex, colIndex), player.player_id)
                     ++colIndex
@@ -162,6 +162,6 @@ function getYourPickNums(draftPos, numTeams) {
     return new Set(yourPicks)
 }
 
-function isNextPick(yourPicks, pickNum, currentRank) {
+function isYourPick(yourPicks, pickNum, currentRank) {
     return yourPicks.has(pickNum + currentRank - 1)
 }
