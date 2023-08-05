@@ -104,12 +104,12 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                 <Container>
                                     {
                                         [...Array(numRows).keys()].map(rowIndex => (
-                                            <Row>
+                                            <Row key={`panel_row_${rowIndex}`}>
                                                 {
                                                     [...Array(numCols).keys()].map(colIndex => (
-                                                        <Col>
-                                                            <Card>
-                                                                <Card.Body>
+                                                        <Col key={`panel_row_col_${rowIndex}_${colIndex}`}>
+                                                            <Card key={`card_parent_${rowIndex}_${colIndex}`}>
+                                                                <Card.Body key={`card_body_${rowIndex}_${colIndex}`}>
                                                                     <ScrollableList
                                                                         ref={useRefs}
                                                                         id={getPanelId(rowIndex, colIndex)}
@@ -118,6 +118,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                                                         includeDrafted={includeDrafted}
                                                                         draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                                                                         pickNum={pickNum} setPickNum={setPickNum}
+                                                                        key={getPanelId(rowIndex, colIndex)}
                                                                     />
                                                                 </Card.Body>
                                                             </Card>

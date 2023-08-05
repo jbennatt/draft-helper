@@ -14,20 +14,19 @@ const ControlPanel = forwardRef((props, useRefs) => {
 
     const recenterAll = () => {
         panelIds.forEach(panelId => {
-            console.log(`trying to recenter: ${panelId}`)
             scrollToAnchorPlayer(panelId, useRefs)
         })
     }
 
     const updateDraftPos = (selectionEvent) => {
         const newDraftPos = parseInt(selectionEvent.target.innerText)
-        if (newDraftPos && newDraftPos != draftPos) setDraftPos(newDraftPos)
+        if (newDraftPos && newDraftPos !== draftPos) setDraftPos(newDraftPos)
         // else do nothing
     }
 
     const updateNumTeams = (selectionEvent) => {
         const newNumTeams = parseInt(selectionEvent.target.innerText)
-        if (newNumTeams && newNumTeams != numTeams) setNumTeams(newNumTeams)
+        if (newNumTeams && newNumTeams !== numTeams) setNumTeams(newNumTeams)
         // else do nothing
     }
 

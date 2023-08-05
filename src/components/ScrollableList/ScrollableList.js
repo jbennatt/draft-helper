@@ -11,7 +11,7 @@ const ScrollableList = forwardRef((props, useRefs) => {
 
     return (
         <div className="app">
-            <div className="scroller" id={id} ref={el => useRefs[id] = el} anchorPlayerId={anchorPlayerId}>
+            <div className="scroller" id={id} ref={el => useRefs[id] = el} anchor_player_id={anchorPlayerId}>
                 {filterPlayers(players, includeDrafted, draftedMap).map(player => {
                     return (
                         <PlayerLabel
@@ -33,7 +33,7 @@ const ScrollableList = forwardRef((props, useRefs) => {
 const anchorPlayerDrop = 200
 
 export function scrollToAnchorPlayer(scrollerDivId, useRefs) {
-    const anchorPlayerId = useRefs[scrollerDivId].getAttribute("anchorPlayerId")
+    const anchorPlayerId = useRefs[scrollerDivId].getAttribute("anchor_player_id")
     const useRefKey = getFullRefId(scrollerDivId, anchorPlayerId)
 
     let top = useRefs.current[useRefKey].offsetTop
