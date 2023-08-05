@@ -36,6 +36,9 @@ export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
     const anchorPlayerId = allRefs[scrollerDivId].getAttribute("anchor_player_id")
     const refKeyToPlayerLabel = getFullRefId(scrollerDivId, anchorPlayerId)
 
+    // I don't understand why the above works (to get the DOM element) but this doesn't
+    //  without .current--the above (getting anchor id) doesn't work with current it seems
+    //  and this doesn't seem to work without current.  
     let top = allRefs.current[refKeyToPlayerLabel].offsetTop
 
     if (top < anchorPlayerDrop) top = 0 // don't scroll at all
