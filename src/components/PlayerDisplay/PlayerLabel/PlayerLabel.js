@@ -7,11 +7,11 @@ const PlayerLabel = forwardRef((props, useRefs) => {
     return (
         <p
             ref={el => useRefs.current[getFullRefId(parentId, player.player_id)] = el}
-            className={`player_name ${stripNumForPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
+            className={`player_name ${stripNumFromPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
             key={player.player_id}
         >
-            {player.name}-{stripNumForPos(player.position)}-{player.team}-{player.adp}-{player.currentRank}-{player.rank}
+            {player.name}-{stripNumFromPos(player.position)}-{player.team}-{player.adp}-{player.currentRank}-{player.rank}
         </p>
     )
 }
@@ -21,7 +21,7 @@ export function getFullRefId(parentId, playerId) {
     return `${parentId}_${playerId}`
 }
 
-function stripNumForPos(pos) {
+function stripNumFromPos(pos) {
     const strippedPos = pos.replace(/[0-9]/g, '')
     return strippedPos
 }
