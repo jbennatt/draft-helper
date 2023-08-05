@@ -20,6 +20,18 @@ const ControlPanel = forwardRef((props, useRefs) => {
     //     }
     // }
 
+    const updateDraftPos = (selectionEvent) => {
+        const newDraftPos = parseInt(selectionEvent.target.innerText)
+        if (newDraftPos && newDraftPos != draftPos) setDraftPos(newDraftPos)
+        // else do nothing
+    }
+
+    const updateNumTeams = (selectionEvent) => {
+        const newNumTeams = parseInt(selectionEvent.target.innerText)
+        if (newNumTeams && newNumTeams != numTeams) setNumTeams(newNumTeams)
+        // else do nothing
+    }
+
     return (
         <Container fluid>
             <Row>
@@ -41,7 +53,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col>
-                    <DropdownButton title={`Number of Teams (currently ${numTeams})`}>
+                    <DropdownButton title={`Number of Teams (currently ${numTeams})`} onClick={updateNumTeams}>
                         {
                             supportedNumTeams.map(numTeams =>
                                 <Dropdown.Item>{numTeams}</Dropdown.Item>
@@ -50,7 +62,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col>
-                    <DropdownButton title={`Set Draft Position (currently ${draftPos}`}>
+                    <DropdownButton title={`Set Draft Position (currently ${draftPos}`} onClick={updateDraftPos}>
                         {
                             [...Array(numTeams).keys()].map(index =>
                                 <Dropdown.Item>{index + 1}</Dropdown.Item>

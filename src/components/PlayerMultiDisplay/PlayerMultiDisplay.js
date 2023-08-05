@@ -36,7 +36,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
     const [numTeams, setNumTeams] = useState(12)
     const [draftPos, setDraftPos] = useState(7)
 
-    // const useRefs = useRef({})
+    const useRefs = useRef({})
 
     const enrichPlayers = () => {
         const panelIdToAnchorId = new Map()
@@ -107,7 +107,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                                             <Card>
                                                                 <Card.Body>
                                                                     <ScrollableList
-                                                                        // ref={useRefs}
+                                                                        ref={useRefs}
                                                                         id={getPanelId(rowIndex, colIndex)}
                                                                         anchorPlayerId={panelIdToAnchorId.get(getPanelId(rowIndex, colIndex))}
                                                                         players={enrichedPlayers}

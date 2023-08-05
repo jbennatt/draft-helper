@@ -2,11 +2,11 @@ import './PlayerLabel.css'
 import { forwardRef } from 'react'
 
 const PlayerLabel = forwardRef((props, useRefs) => {
-    const {player, draftedMap, setDraftedMap, pickNum, setPickNum} = props
+    const {player, draftedMap, setDraftedMap, pickNum, setPickNum, parentId} = props
 
     return (
         <p
-            ref={el => useRefs.current[player.player_id] = el}
+            ref={el => useRefs.current[getFullRefId(parentId, player.player_id)] = el}
             className={`player_name ${stripNumForPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
             key={player.player_id}
@@ -17,9 +17,12 @@ const PlayerLabel = forwardRef((props, useRefs) => {
 }
 )
 
+export function getFullRefId(parentId, playerId) {
+    return `${parentId}_${playerId}`
+}
+
 function stripNumForPos(pos) {
     const strippedPos = pos.replace(/[0-9]/g, '')
-    console.log(`${pos}: ${strippedPos}`)
     return strippedPos
     // return pos
 }

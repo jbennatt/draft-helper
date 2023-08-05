@@ -2,13 +2,15 @@ import './PlayerList.css'
 import PlayerLabel from '../PlayerLabel/PlayerLabel'
 import { useRef } from 'react'
 
+const playerListPanel = 'player_list_panel'
+
 export default function PlayerList({ 
     allPlayers, searchValue = '', includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum 
 }) {
     const useRefs = useRef({})
 
     return (
-        <div style={{ width: 'max-content' }}>
+        <div style={{ width: 'max-content' }} id={playerListPanel}>
             {
                 filterPlayers(allPlayers, includeDrafted, draftedMap, searchValue).map(player => 
                     <PlayerLabel 
@@ -17,14 +19,8 @@ export default function PlayerList({
                     pickNum={pickNum} setPickNum={setPickNum}
                     ref={useRefs}
                     key={player.player_id}
+                    parentId={playerListPanel}
                     />
-                    // <p
-                    //     className={`player_name ${position} ${draftedMap.get(player_id) ? 'drafted' : 'undrafted'}`}
-                    //     onClick={() => togglePlayerDrafted(player_id, draftedMap, setDraftedMap)}
-                    //     key={player_id}
-                    // >
-                    //     {name}-{position}-{team}-{adp}-{rank}
-                    // </p>
                 )
             }
         </div>
