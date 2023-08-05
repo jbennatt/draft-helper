@@ -58,6 +58,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
 
             if (!draftedMap.get(player.player_id)) {
                 player.currentRank = currentRank
+                ++currentRank
+                
                 if (isNextPick(yourPicks, pickNum, currentRank)) {
                     player.isYourPick = true
                     panelIdToAnchorId.set(getPanelId(rowIndex, colIndex), player.player_id)
@@ -67,8 +69,6 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                         colIndex = 0
                     }
                 }
-
-                ++currentRank
             }
             return player
         })
