@@ -1,12 +1,11 @@
 import './ControlPanel.css'
 
 import { forwardRef } from 'react'
-import { Container, Row, Col, Button, Dropdown, DropdownButton } from 'react-bootstrap'
+import { Container, Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
 
 import { scrollToAnchorPlayer } from '../ScrollableList/ScrollableList'
 
 const supportedNumTeams = [8, 10, 12]
-const supportedFormats = ['half-point PPR']
 
 const ControlPanel = forwardRef((props, useRefs) => {
     const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds } = props
@@ -32,28 +31,25 @@ const ControlPanel = forwardRef((props, useRefs) => {
         // else do nothing
     }
 
+    const incrementNumPicks = (inc) => {
+        const newNumPicks = pickNum + inc
+        if (newNumPicks > 0) setPickNum(newNumPicks)
+    }
+
     return (
         <Container fluid>
             <Row>
                 <Col>
                     <h1>Round {computeRound()}.{computePickInRound()}, Pick &#35;{pickNum}</h1>
                 </Col>
+                <Col>
+                    <Button onClick={() => incrementNumPicks(1)} as={ButtonGroup} variant='danger'>Add Pick</Button>
+                    <Button onClick={() => incrementNumPicks(-1)} as={ButtonGroup} variant='danger'>Takeaway Pick</Button>
+                </Col>
             </Row>
             <Row>
-                {/* <Col>
-                    <Button variant='primary'>update</Button>
-                </Col>
-                <Col>
-                    <DropdownButton title='Select Team Type'>
-                        {
-                            supportedFormats.map(format =>
-                                <Dropdown.Item>{format}</Dropdown.Item>
-                            )
-                        }
-                    </DropdownButton>
-                </Col> */}
                 <Col md='auto'>
-                    <DropdownButton title={`Number of Teams (currently ${numTeams})`} onClick={updateNumTeams}>
+                    <DropdownButton title={`Number of Teams (currently ${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
                             supportedNumTeams.map(numTeams =>
                                 <Dropdown.Item>{numTeams}</Dropdown.Item>
@@ -62,7 +58,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Set Draft Position (currently ${draftPos}`} onClick={updateDraftPos}>
+                    <DropdownButton title={`Set Draft Position (currently ${draftPos}`} onClick={updateDraftPos} variant='secondary'>
                         {
                             [...Array(numTeams).keys()].map(index =>
                                 <Dropdown.Item>{index + 1}</Dropdown.Item>

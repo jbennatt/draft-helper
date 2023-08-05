@@ -9,13 +9,15 @@ import './PlayerMultiDisplay.css'
 // import data from '../../half-ppr.json'
 import data from '../../ffp-rankings-underscores.json'
 
-// const players = data.players.map((player, index) => {
+const maxPlayers = 200
+
+// const players = data.players.slice(0, maxPlayers).map((player, index) => {
 //     player.rank = index + 1
 //     return player
 // })
 
 // convert FFP JSON to Fantasy Football Calculator JSON schema
-const players = data.map(player => {
+const players = data.slice(0, maxPlayers).map(player => {
     player.name = player.player_name
     player.position = player.pos
     player.adp = player.rk
@@ -30,7 +32,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
         player => [player.player_id, false]
     )))
 
-    const [includeDrafted, setIncludeDrafted] = useState(true)
+    const [includeDrafted, setIncludeDrafted] = useState(false)
 
     const [pickNum, setPickNum] = useState(1)
     const [numTeams, setNumTeams] = useState(12)
@@ -155,7 +157,7 @@ function getYourPickNums(draftPos, numTeams) {
 
         yourPicks.push(currPick)
     })
-    
+
     return new Set(yourPicks)
 }
 
