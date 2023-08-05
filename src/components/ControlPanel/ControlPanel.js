@@ -9,16 +9,16 @@ const supportedNumTeams = [8, 10, 12]
 const supportedFormats = ['half-point PPR']
 
 const ControlPanel = forwardRef((props, useRefs) => {
-    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIdToAnchorPlayer } = props
+    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds } = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
 
-    // const recenterAll = () => {
-    //     for(const panelId of panelIdToAnchorPlayer.keys()) {
-    //         console.log(`anchor id: ${panelIdToAnchorPlayer.get(panelId)}`)
-    //         scrollToAnchorPlayer(document, panelId, panelIdToAnchorPlayer.get(panelId), useRefs)
-    //     }
-    // }
+    const recenterAll = () => {
+        panelIds.forEach(panelId => {
+            console.log(`trying to recenter: ${panelId}`)
+            scrollToAnchorPlayer(panelId, useRefs)
+        })
+    }
 
     const updateDraftPos = (selectionEvent) => {
         const newDraftPos = parseInt(selectionEvent.target.innerText)
@@ -36,11 +36,11 @@ const ControlPanel = forwardRef((props, useRefs) => {
         <Container fluid>
             <Row>
                 <Col>
-                    <h1>Round {computeRound()}:{computePickInRound()}, &#35;{pickNum}</h1>
+                    <h1>Round {computeRound()}.{computePickInRound()}, Pick &#35;{pickNum}</h1>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                {/* <Col>
                     <Button variant='primary'>update</Button>
                 </Col>
                 <Col>
@@ -51,8 +51,8 @@ const ControlPanel = forwardRef((props, useRefs) => {
                             )
                         }
                     </DropdownButton>
-                </Col>
-                <Col>
+                </Col> */}
+                <Col md='auto'>
                     <DropdownButton title={`Number of Teams (currently ${numTeams})`} onClick={updateNumTeams}>
                         {
                             supportedNumTeams.map(numTeams =>
@@ -61,7 +61,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                         }
                     </DropdownButton>
                 </Col>
-                <Col>
+                <Col md='auto'>
                     <DropdownButton title={`Set Draft Position (currently ${draftPos}`} onClick={updateDraftPos}>
                         {
                             [...Array(numTeams).keys()].map(index =>
@@ -70,9 +70,9 @@ const ControlPanel = forwardRef((props, useRefs) => {
                         }
                     </DropdownButton>
                 </Col>
-                {/* <Col>
-                    <Button variant='primary' onClick={recenterAll}>Recenter-All</Button>
-                </Col> */}
+                <Col md='auto'>
+                    <Button variant='primary' onClick={recenterAll}>Recenter</Button>
+                </Col>
             </Row>
         </Container>
     )
@@ -80,31 +80,3 @@ const ControlPanel = forwardRef((props, useRefs) => {
 )
 
 export default ControlPanel
-
-
-{/* <div>
-<h1>This is where the control options and reset will go</h1>
-<ul>
-    <li>
-        Reset draft
-    </li>
-    <li>
-        Display Round, pick number, how many picks until next pick
-    </li>
-    <li>
-        Set Draft Position (dynamic--should be able to change while in draft)
-    </li>
-    <li>
-        Set number of Teams
-    </li>
-    <li>
-        re-download from fantasy football calculator
-    </li>
-    <li>
-        specify league type
-    </li>
-    <li>
-        add pick/remove pick (for no-name players)
-    </li>
-</ul>
-</div> */}

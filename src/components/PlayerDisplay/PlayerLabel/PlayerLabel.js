@@ -24,7 +24,6 @@ export function getFullRefId(parentId, playerId) {
 function stripNumForPos(pos) {
     const strippedPos = pos.replace(/[0-9]/g, '')
     return strippedPos
-    // return pos
 }
 
 function togglePlayerDrafted(playerId, draftedMap, setDraftedMap, pickNum = null, setPickNum = null) {

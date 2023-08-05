@@ -38,6 +38,11 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
 
     const useRefs = useRef({})
 
+    const panelIds = [...Array(numRows).keys()].flatMap(rowIndex =>
+        [...Array(numCols).keys()].map(colIndex => getPanelId(rowIndex, colIndex)
+        )
+    )
+
     const enrichPlayers = () => {
         const panelIdToAnchorId = new Map()
         const yourPicks = getYourPickNums(draftPos, numTeams)
@@ -66,9 +71,6 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
             return player
         })
 
-        // panelIdToAnchorId.keys().forEach(panelId => console.log(`${panelId} -> ${panelIdToAnchorId.get(panelId)}`))
-        for (const panelId of panelIdToAnchorId.keys()) console.log(`${panelId} -> ${panelIdToAnchorId.get(panelId)}`)
-
         return [enrichedPlayers, panelIdToAnchorId]
     }
 
@@ -92,8 +94,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                     pickNum={pickNum} setPickNum={setPickNum}
                                     numTeams={numTeams} setNumTeams={setNumTeams}
                                     draftPos={draftPos} setDraftPos={setDraftPos}
-                                    panelIdToAnchorPlayer={panelIdToAnchorId}
-                                // ref={useRefs}
+                                    panelIds={panelIds}
+                                    ref={useRefs}
                                 />
                             </Row>
                             <Row>
@@ -153,7 +155,7 @@ function getYourPickNums(draftPos, numTeams) {
 
         yourPicks.push(currPick)
     })
-    // yourPicks.forEach(pick => console.log(pick))
+    
     return new Set(yourPicks)
 }
 
