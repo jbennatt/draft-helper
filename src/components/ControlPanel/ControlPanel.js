@@ -49,7 +49,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
             </Row>
             <Row>
                 <Col md='auto'>
-                    <DropdownButton title={`Number of Teams (currently ${numTeams})`} onClick={updateNumTeams} variant='secondary'>
+                    <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
                             supportedNumTeams.map(numTeams =>
                                 <Dropdown.Item>{numTeams}</Dropdown.Item>
@@ -58,7 +58,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Set Draft Position (currently ${draftPos}`} onClick={updateDraftPos} variant='secondary'>
+                    <DropdownButton title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
                         {
                             [...Array(numTeams).keys()].map(index =>
                                 <Dropdown.Item>{index + 1}</Dropdown.Item>
