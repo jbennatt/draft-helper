@@ -58,8 +58,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
 
             if (!draftedMap.get(player.player_id)) {
                 player.currentRank = currentRank
-                ++currentRank
 
+                // if this player isn't drafted, check to see if they're part of your picks
                 if (isYourPick(yourPicks, pickNum, currentRank)) {
                     player.isYourPick = true
                     panelIdToAnchorId.set(getPanelId(rowIndex, colIndex), player.player_id)
@@ -69,6 +69,9 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                         colIndex = 0
                     }
                 }
+
+                // increment current rank after above decision
+                ++currentRank
             }
             return player
         })
