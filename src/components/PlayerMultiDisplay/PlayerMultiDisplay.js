@@ -9,7 +9,7 @@ import './PlayerMultiDisplay.css'
 // import data from '../../half-ppr.json'
 import data from '../../ffp-rankings-underscores.json'
 
-const maxPlayers = 200
+const maxPlayers = 300
 
 // const players = data.players.slice(0, maxPlayers).map((player, index) => {
 //     player.rank = index + 1
