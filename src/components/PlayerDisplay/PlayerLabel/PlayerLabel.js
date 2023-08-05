@@ -11,7 +11,7 @@ const PlayerLabel = forwardRef((props, allRefs = null) => {
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
             key={player.player_id}
         >
-            {player.name}-{stripNumFromPos(player.position)}-{player.team}-{player.adp}-{player.currentRank}-{player.rank}
+            {player.name}-{player.position}-{player.team}-{player.adp}-{player.currentRank}-{player.rank}
         </p>
     )
 }
