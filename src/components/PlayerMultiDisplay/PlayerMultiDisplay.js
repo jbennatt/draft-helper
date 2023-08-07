@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import ScrollableList from '../ScrollableList/ScrollableList'
 import PlayerDisplay from '../PlayerDisplay/PlayerDisplay'
 import ControlPanel from '../ControlPanel/ControlPanel'
-import {allPositions} from '../ControlPanel/ControlPanel'
+import { allPositions } from '../ControlPanel/ControlPanel'
 
 import './PlayerMultiDisplay.css'
 // import data from '../../half-ppr.json'
@@ -88,6 +88,18 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
         (
             <Container fluid>
                 <Row>
+                    <ControlPanel
+                        pickNum={pickNum} setPickNum={setPickNum}
+                        numTeams={numTeams} setNumTeams={setNumTeams}
+                        draftPos={draftPos} setDraftPos={setDraftPos}
+                        panelIds={panelIds}
+                        setSearchValue={setSearchValue}
+                        includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
+                        searchPos={searchPos} setSearchPos={setSearchPos}
+                        ref={useRefs}
+                    />
+                </Row>
+                <Row>
                     <Col md='auto'>
                         <PlayerDisplay
                             players={enrichedPlayers} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
@@ -98,8 +110,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                         />
                     </Col>
                     <Col>
-                        <Container>
-                            <Row>
+                        {/* <Container> */}
+                            {/* <Row>
                                 <ControlPanel
                                     pickNum={pickNum} setPickNum={setPickNum}
                                     numTeams={numTeams} setNumTeams={setNumTeams}
@@ -110,8 +122,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                     searchPos={searchPos} setSearchPos={setSearchPos}
                                     ref={useRefs}
                                 />
-                            </Row>
-                            <Row>
+                            </Row> */}
+                            {/* <Row> */}
                                 <Container>
                                     {
                                         [...Array(numRows).keys()].map(rowIndex => (
@@ -142,8 +154,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                         )
                                         )
                                     }
-                                </Container>
-                            </Row>
+                                {/* </Container> */}
+                            {/* </Row>x`     */}
                         </Container>
                     </Col>
                 </Row>

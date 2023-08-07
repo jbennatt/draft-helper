@@ -12,7 +12,7 @@ export default function PlayerList({ allPlayers, searchValue, includeDrafted, dr
         <div style={{ width: 'max-content' }} id={playerListPanel}>
 
             <Table hover size='sm'>
-                <thead class='thead-dark sticky-top'>
+                <thead class='thead-dark sticky-top' style={{'z-index': '1'}}>
                     <tr>
                         <th>Name</th>
                         <th>Pos</th>
