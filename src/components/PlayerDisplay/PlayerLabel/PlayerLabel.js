@@ -30,7 +30,7 @@ export function getFullRefId(parentId, playerId) {
     return `${parentId}_${playerId}`
 }
 
-function stripNumFromPos(pos) {
+export function stripNumFromPos(pos) {
     const strippedPos = pos.replace(/[0-9]/g, '')
     return strippedPos
 }

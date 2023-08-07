@@ -5,11 +5,35 @@ import { Container, Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } fr
 
 import { scrollToAnchorPlayer } from '../ScrollableList/ScrollableList'
 import { SearchBar } from './SearchPanel/SearchBar'
+import { stripNumFromPos } from '../PlayerDisplay/PlayerLabel/PlayerLabel'
 
 const supportedNumTeams = [8, 10, 12]
 
+export const allPositions = 'ALL'
+const qb = 'QB'
+const rb = 'RB'
+const wr = 'WR'
+const te = 'TE'
+const flex = 'FLEX'
+const pk = 'K'
+const dst = 'DST'
+const positions = [allPositions, qb, rb, wr, te, flex, pk, dst]
+
+function isValidPosFilter(posFilter) {
+    return positions.indexOf(posFilter) >= 0
+}
+
+export function filterPosition(player, searchPos) {
+    // console.log(`filtering ${player}`)
+    if (!isValidPosFilter(searchPos) || searchPos === allPositions) return true
+
+    const strippedPos = stripNumFromPos(player.position)
+    return strippedPos === searchPos || (searchPos === flex && (strippedPos === rb || strippedPos === wr || strippedPos == te))
+}
+
 const ControlPanel = forwardRef((props, useRefs) => {
-    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds, setSearchValue, includeDrafted, setIncludeDrafted} = props
+    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds, setSearchValue, includeDrafted, setIncludeDrafted,
+        searchPos, setSearchPos } = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
 
@@ -31,6 +55,16 @@ const ControlPanel = forwardRef((props, useRefs) => {
         // else do nothing
     }
 
+    const updateSearchPos = (selectionEvent) => {
+        const newSearchPos = selectionEvent.target.innerText
+        // console.log(`newSearchPos: ${newSearchPos}, old search position: ${searchPos}`)
+        if (newSearchPos && isValidPosFilter(newSearchPos) && newSearchPos !== searchPos) {
+            // console.log(`updating old searchPos ${searchPos} to new search Pos ${newSearchPos}`)
+            setSearchPos(newSearchPos)
+        }
+        // else do nothing
+    }
+
     const incrementNumPicks = (inc) => {
         const newNumPicks = pickNum + inc
         if (newNumPicks > 0) setPickNum(newNumPicks)
@@ -48,6 +82,16 @@ const ControlPanel = forwardRef((props, useRefs) => {
                 </Col>
             </Row>
             <Row>
+                <Col md='auto'>
+                    <SearchBar setSearchValue={setSearchValue} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted} />
+                </Col>
+                <Col md='auto'>
+                    <DropdownButton title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
+                        {positions.map(pos =>
+                            <Dropdown.Item>{pos}</Dropdown.Item>
+                        )}
+                    </DropdownButton>
+                </Col>
                 <Col md='auto'>
                     <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
@@ -68,9 +112,6 @@ const ControlPanel = forwardRef((props, useRefs) => {
                 </Col>
                 <Col md='auto'>
                     <Button variant='primary' onClick={recenterAll}>Recenter</Button>
-                </Col>
-                <Col md='auto'>
-                    <SearchBar setSearchValue={setSearchValue} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}/>
                 </Col>
             </Row>
         </Container>

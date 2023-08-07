@@ -8,7 +8,7 @@ import { Table } from 'react-bootstrap';
 
 
 const ScrollableList = forwardRef((props, allRefs) => {
-    const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId } = props
+    const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId, searchPos } = props
 
     return (
         <div className="app">

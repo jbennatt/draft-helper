@@ -4,6 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import ScrollableList from '../ScrollableList/ScrollableList'
 import PlayerDisplay from '../PlayerDisplay/PlayerDisplay'
 import ControlPanel from '../ControlPanel/ControlPanel'
+import {allPositions} from '../ControlPanel/ControlPanel'
 
 import './PlayerMultiDisplay.css'
 // import data from '../../half-ppr.json'
@@ -38,6 +39,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
     const [numTeams, setNumTeams] = useState(12)
     const [draftPos, setDraftPos] = useState(7)
     const [searchValue, setSearchValue] = useState('')
+    const [searchPos, setSearchPos] = useState(allPositions)
 
     const useRefs = useRef({})
 
@@ -92,6 +94,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                             draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                             pickNum={pickNum} setPickNum={setPickNum}
                             searchValue={searchValue}
+                            searchPos={searchPos}
                         />
                     </Col>
                     <Col>
@@ -104,6 +107,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                     panelIds={panelIds}
                                     setSearchValue={setSearchValue}
                                     includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
+                                    searchPos={searchPos} setSearchPos={setSearchPos}
                                     ref={useRefs}
                                 />
                             </Row>
@@ -125,6 +129,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                                                         includeDrafted={includeDrafted}
                                                                         draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                                                                         pickNum={pickNum} setPickNum={setPickNum}
+                                                                        // searchPos={searchPos}
                                                                         key={getPanelId(rowIndex, colIndex)}
                                                                     />
                                                                 </Card.Body>
