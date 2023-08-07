@@ -9,7 +9,7 @@ const PlayerLabel = forwardRef((props, allRefs = null) => {
             // I don't understand this function: it's saying that the ref proprety is a function, which takes an "html element as an argument" and 
             //  then sets the useRef property (object definition) as that HTML element
             ref={el => { if (allRefs) allRefs.current[getFullRefId(parentId, player.player_id)] = el }} // by defaullt don't set the ref (allRefs is null)
-            class={`player_label ${getBSRowClass(stripNumFromPos(player.position))} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} 
+            className={`player_label ${getBSRowClass(stripNumFromPos(player.position))} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} 
             ${player.isYourPick ? 'your_pick' : ''}`}
             // className={`player_name ${stripNumFromPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
             // className={`${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}

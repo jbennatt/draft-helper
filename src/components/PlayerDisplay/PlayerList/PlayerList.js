@@ -1,6 +1,5 @@
 import './PlayerList.css'
 import PlayerLabel from '../PlayerLabel/PlayerLabel'
-import { useRef } from 'react'
 import { Table } from 'react-bootstrap'
 import { allPositions, filterPosition } from '../../ControlPanel/ControlPanel'
 
@@ -12,7 +11,7 @@ export default function PlayerList({ allPlayers, searchValue, includeDrafted, dr
         <div style={{ width: 'max-content' }} id={playerListPanel}>
 
             <Table hover size='sm'>
-                <thead class='thead-dark sticky-top' style={{'z-index': '1'}}>
+                <thead className='thead-dark sticky-top' style={{'zIndex': '1'}}>
                     <tr>
                         <th>Name</th>
                         <th>Pos</th>

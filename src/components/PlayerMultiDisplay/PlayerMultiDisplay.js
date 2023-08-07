@@ -87,6 +87,15 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
     return (
         (
             <Container fluid>
+                {
+                    /**
+                     * Main container consists of two rows:
+                     * 
+                     * Top row (here): single column: Control Panel
+                     * Bottom Row: two columns: first is side panel (main search) and second (to the right) is a Container
+                     *  that shows a grid of the draft round selections (responsive to RECENTER)
+                     */
+                }
                 <Row>
                     <ControlPanel
                         pickNum={pickNum} setPickNum={setPickNum}
@@ -110,52 +119,35 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                         />
                     </Col>
                     <Col>
-                        {/* <Container> */}
-                            {/* <Row>
-                                <ControlPanel
-                                    pickNum={pickNum} setPickNum={setPickNum}
-                                    numTeams={numTeams} setNumTeams={setNumTeams}
-                                    draftPos={draftPos} setDraftPos={setDraftPos}
-                                    panelIds={panelIds}
-                                    setSearchValue={setSearchValue}
-                                    includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
-                                    searchPos={searchPos} setSearchPos={setSearchPos}
-                                    ref={useRefs}
-                                />
-                            </Row> */}
-                            {/* <Row> */}
-                                <Container>
-                                    {
-                                        [...Array(numRows).keys()].map(rowIndex => (
-                                            <Row key={`panel_row_${rowIndex}`}>
-                                                {
-                                                    [...Array(numCols).keys()].map(colIndex => (
-                                                        <Col key={`panel_row_col_${rowIndex}_${colIndex}`}>
-                                                            <Card key={`card_parent_${rowIndex}_${colIndex}`}>
-                                                                <Card.Body key={`card_body_${rowIndex}_${colIndex}`}>
-                                                                    <ScrollableList
-                                                                        ref={useRefs}
-                                                                        id={getPanelId(rowIndex, colIndex)}
-                                                                        anchorPlayerId={panelIdToAnchorId.get(getPanelId(rowIndex, colIndex))}
-                                                                        players={enrichedPlayers}
-                                                                        includeDrafted={includeDrafted}
-                                                                        draftedMap={draftedMap} setDraftedMap={setDraftedMap}
-                                                                        pickNum={pickNum} setPickNum={setPickNum}
-                                                                        // searchPos={searchPos}
-                                                                        key={getPanelId(rowIndex, colIndex)}
-                                                                    />
-                                                                </Card.Body>
-                                                            </Card>
-                                                        </Col>
-                                                    )
-                                                    )
-                                                }
-                                            </Row>
-                                        )
-                                        )
-                                    }
-                                {/* </Container> */}
-                            {/* </Row>x`     */}
+                        <Container>
+                            {
+                                [...Array(numRows).keys()].map(rowIndex => (
+                                    <Row key={`panel_row_${rowIndex}`}>
+                                        {
+                                            [...Array(numCols).keys()].map(colIndex => (
+                                                <Col key={`panel_row_col_${rowIndex}_${colIndex}`}>
+                                                    <Card key={`card_parent_${rowIndex}_${colIndex}`}>
+                                                        <Card.Body key={`card_body_${rowIndex}_${colIndex}`}>
+                                                            <ScrollableList
+                                                                ref={useRefs}
+                                                                id={getPanelId(rowIndex, colIndex)}
+                                                                anchorPlayerId={panelIdToAnchorId.get(getPanelId(rowIndex, colIndex))}
+                                                                players={enrichedPlayers}
+                                                                includeDrafted={includeDrafted}
+                                                                draftedMap={draftedMap} setDraftedMap={setDraftedMap}
+                                                                pickNum={pickNum} setPickNum={setPickNum}
+                                                                key={getPanelId(rowIndex, colIndex)}
+                                                            />
+                                                        </Card.Body>
+                                                    </Card>
+                                                </Col>
+                                            )
+                                            )
+                                        }
+                                    </Row>
+                                )
+                                )
+                            }
                         </Container>
                     </Col>
                 </Row>
