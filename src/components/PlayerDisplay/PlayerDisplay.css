@@ -1,6 +1,6 @@
 #search_panel {
     margin: 5px auto;
-    height: 98vh;
+    height: 80vh;
     width: 'max-content';
     overflow: auto;
 }
