@@ -37,6 +37,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
     const [pickNum, setPickNum] = useState(1)
     const [numTeams, setNumTeams] = useState(12)
     const [draftPos, setDraftPos] = useState(7)
+    const [searchValue, setSearchValue] = useState('')
 
     const useRefs = useRef({})
 
@@ -90,6 +91,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                             players={enrichedPlayers} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
                             draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                             pickNum={pickNum} setPickNum={setPickNum}
+                            searchValue={searchValue}
                         />
                     </Col>
                     <Col>
@@ -100,6 +102,8 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                                     numTeams={numTeams} setNumTeams={setNumTeams}
                                     draftPos={draftPos} setDraftPos={setDraftPos}
                                     panelIds={panelIds}
+                                    setSearchValue={setSearchValue}
+                                    includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
                                     ref={useRefs}
                                 />
                             </Row>

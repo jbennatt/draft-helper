@@ -4,11 +4,12 @@ import { forwardRef } from 'react'
 import { Container, Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
 
 import { scrollToAnchorPlayer } from '../ScrollableList/ScrollableList'
+import { SearchBar } from './SearchPanel/SearchBar'
 
 const supportedNumTeams = [8, 10, 12]
 
 const ControlPanel = forwardRef((props, useRefs) => {
-    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds } = props
+    const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds, setSearchValue, includeDrafted, setIncludeDrafted} = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
 
@@ -67,6 +68,9 @@ const ControlPanel = forwardRef((props, useRefs) => {
                 </Col>
                 <Col md='auto'>
                     <Button variant='primary' onClick={recenterAll}>Recenter</Button>
+                </Col>
+                <Col md='auto'>
+                    <SearchBar setSearchValue={setSearchValue} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}/>
                 </Col>
             </Row>
         </Container>

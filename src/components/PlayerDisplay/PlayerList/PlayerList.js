@@ -5,13 +5,13 @@ import { Table } from 'react-bootstrap'
 
 const playerListPanel = 'player_list_panel'
 
-export default function PlayerList({ allPlayers, searchValue = '', includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum }) {
+export default function PlayerList({ allPlayers, searchValue, includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum }) {
 
     return (
         <div style={{ width: 'max-content' }} id={playerListPanel}>
 
             <Table hover size='sm'>
-                <thead class='thead-dark'>
+                <thead class='thead-dark sticky-top'>
                     <tr>
                         <th>Name</th>
                         <th>Pos</th>
