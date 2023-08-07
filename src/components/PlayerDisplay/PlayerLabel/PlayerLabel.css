@@ -1,5 +1,5 @@
 .WR {
-    background-color: #9DF2A7
+    background-color: #9DF2A7 !important
 }
 
 .RB {
@@ -39,7 +39,11 @@
     border-radius: 3px;
 }
 
-.player_name.undrafted:hover {
+.player_label:hover {
+    cursor: pointer
+}
+
+/* .player_name.undrafted:hover {
     cursor: pointer;
     filter: brightness(90%);
 }
@@ -47,4 +51,4 @@
 .player_name.drafted:hover {
     cursor: pointer;
     filter: opacity(50%);
-}
+} */

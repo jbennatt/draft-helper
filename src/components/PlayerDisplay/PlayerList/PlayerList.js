@@ -1,6 +1,7 @@
 import './PlayerList.css'
 import PlayerLabel from '../PlayerLabel/PlayerLabel'
 import { useRef } from 'react'
+import { Table } from 'react-bootstrap'
 
 const playerListPanel = 'player_list_panel'
 
@@ -8,17 +9,31 @@ export default function PlayerList({ allPlayers, searchValue = '', includeDrafte
 
     return (
         <div style={{ width: 'max-content' }} id={playerListPanel}>
-            {
-                filterPlayers(allPlayers, includeDrafted, draftedMap, searchValue).map(player =>
-                    <PlayerLabel
-                        player={player}
-                        draftedMap={draftedMap} setDraftedMap={setDraftedMap}
-                        pickNum={pickNum} setPickNum={setPickNum}
-                        key={player.player_id}
-                        parentId={playerListPanel}
-                    />
-                )
-            }
+
+            <Table hover size='sm'>
+                <thead class='thead-dark'>
+                    <tr>
+                        <th>Name</th>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>Orig</th>
+                        <th>Current</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        filterPlayers(allPlayers, includeDrafted, draftedMap, searchValue).map(player =>
+                            <PlayerLabel
+                                player={player}
+                                draftedMap={draftedMap} setDraftedMap={setDraftedMap}
+                                pickNum={pickNum} setPickNum={setPickNum}
+                                key={player.player_id}
+                                parentId={playerListPanel}
+                            />
+                        )
+                    }
+                </tbody>
+            </Table>
         </div>
     )
 }

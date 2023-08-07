@@ -3,6 +3,7 @@ import './ScrollableList.css'
 import PlayerLabel from '../PlayerDisplay/PlayerLabel/PlayerLabel';
 import { filterPlayers } from '../PlayerDisplay/PlayerList/PlayerList';
 import { getFullRefId } from '../PlayerDisplay/PlayerLabel/PlayerLabel';
+import { Table } from 'react-bootstrap';
 
 
 
@@ -12,6 +13,17 @@ const ScrollableList = forwardRef((props, allRefs) => {
     return (
         <div className="app">
             <div className="scroller" id={id} ref={el => allRefs[id] = el} anchor_player_id={anchorPlayerId}>
+                <Table hover size='sm'>
+                <thead class='thead-dark sticky-top'>
+                    <tr>
+                        <th>Name</th>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>Orig</th>
+                        <th>Current</th>
+                    </tr>
+                </thead>
+                <tbody>
                 {filterPlayers(players, includeDrafted, draftedMap).map(player => {
                     return (
                         <PlayerLabel
@@ -24,6 +36,8 @@ const ScrollableList = forwardRef((props, allRefs) => {
                         />
                     );
                 })}
+                </tbody>
+                </Table>
             </div>
         </div>
     )
@@ -50,6 +64,11 @@ export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
         behavior: 'smooth',
     }
     )
+
+    // allRefs.current[refKeyToPlayerLabel].scrollIntoView({
+    //     behavior: 'smooth',
+    //     block: 'center',
+    // })
 }
 
 export default ScrollableList
