@@ -65,6 +65,7 @@ export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
     }
     )
 
+    // console.log(`scroling ${refKeyToPlayerLabel}`)
     // allRefs.current[refKeyToPlayerLabel].scrollIntoView({
     //     behavior: 'smooth',
     //     block: 'center',
