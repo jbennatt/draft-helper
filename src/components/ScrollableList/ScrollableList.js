@@ -14,7 +14,7 @@ const ScrollableList = forwardRef((props, allRefs) => {
         <div className="app">
             <div className="scroller" id={id} ref={el => allRefs[id] = el} anchor_player_id={anchorPlayerId}>
                 <Table hover size='sm'>
-                <thead class='thead-dark sticky-top'>
+                <thead class='thead-dark sticky-top' style={{'z-index': '1'}}>
                     <tr>
                         <th>Name</th>
                         <th>Pos</th>

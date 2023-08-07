@@ -36,7 +36,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
     }
 
     return (
-        <Container fluid>
+        <Container fluid id='control_panel'>
             <Row>
                 <Col>
                     <h1>Round {computeRound()}.{computePickInRound()}, Pick &#35;{pickNum}</h1>
