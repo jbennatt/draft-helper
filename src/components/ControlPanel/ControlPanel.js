@@ -7,9 +7,9 @@ import { scrollToAnchorPlayer } from '../ScrollableList/ScrollableList'
 import { SearchBar } from './SearchPanel/SearchBar'
 import { stripNumFromPos } from '../PlayerDisplay/PlayerLabel/PlayerLabel'
 
-const supportedNumTeams = [8, 10, 12]
+const noTierFilter='ALL'
+const allPositions='ALL'
 
-export const allPositions = 'ALL'
 const qb = 'QB'
 const rb = 'RB'
 const wr = 'WR'
@@ -19,12 +19,16 @@ const pk = 'K'
 const dst = 'DST'
 const positions = [allPositions, qb, rb, wr, te, flex, pk, dst]
 
+const supportedNumTeams = [8, 10, 12]
+const supportedTierFilters = [noTierFilter, ...[...Array(16).keys()].map(key => (key + 1).toString())]
+
 function isValidPosFilter(posFilter) {
     return positions.indexOf(posFilter) >= 0
 }
 
+function isValidTierFilter(tierFilter) { return supportedTierFilters.indexOf(tierFilter) >= 0 }
+
 export function filterPosition(player, searchPos) {
-    // console.log(`filtering ${player}`)
     if (!isValidPosFilter(searchPos) || searchPos === allPositions) return true
 
     const strippedPos = stripNumFromPos(player.position)
@@ -33,7 +37,7 @@ export function filterPosition(player, searchPos) {
 
 const ControlPanel = forwardRef((props, useRefs) => {
     const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds, setSearchValue, includeDrafted, setIncludeDrafted,
-        searchPos, setSearchPos } = props
+        searchPos, setSearchPos, tierFilter, setTierFilter } = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
 
@@ -65,6 +69,11 @@ const ControlPanel = forwardRef((props, useRefs) => {
         // else do nothing
     }
 
+    const updateTierFilter = selectionEvent => {
+        const newTierFilter = selectionEvent.target.innerText
+        if(newTierFilter && isValidTierFilter(newTierFilter) && newTierFilter !== tierFilter) setTierFilter(newTierFilter)
+    }
+
     const incrementNumPicks = (inc) => {
         const newNumPicks = pickNum + inc
         if (newNumPicks > 0) setPickNum(newNumPicks)
@@ -90,6 +99,14 @@ const ControlPanel = forwardRef((props, useRefs) => {
                         {positions.map(pos =>
                             <Dropdown.Item>{pos}</Dropdown.Item>
                         )}
+                    </DropdownButton>
+                </Col>
+                <Col md='auto'>
+                    <DropdownButton title={`Tier (${tierFilter})`} onClick={updateTierFilter} variant='secondary'>
+                        {
+                            supportedTierFilters.map(tier =>
+                                <Dropdown.Item>{tier}</Dropdown.Item>)
+                        }
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>

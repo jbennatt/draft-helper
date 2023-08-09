@@ -21,6 +21,7 @@ const ScrollableList = forwardRef((props, allRefs) => {
                         <th>Team</th>
                         <th>Orig</th>
                         <th>Current</th>
+                        <th>Tier</th>
                     </tr>
                 </thead>
                 <tbody>

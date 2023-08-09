@@ -4,31 +4,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import ScrollableList from '../ScrollableList/ScrollableList'
 import PlayerDisplay from '../PlayerDisplay/PlayerDisplay'
 import ControlPanel from '../ControlPanel/ControlPanel'
-import { allPositions } from '../ControlPanel/ControlPanel'
 
 import './PlayerMultiDisplay.css'
-// import data from '../../half-ppr.json'
-import data from '../../ffp-rankings-underscores.json'
 
-const maxPlayers = 300
+export const noTierFilter = 'ALL'
+export const allPositions = 'ALL'
 
-// const players = data.players.slice(0, maxPlayers).map((player, index) => {
-//     player.rank = index + 1
-//     return player
-// })
-
-// convert FFP JSON to Fantasy Football Calculator JSON schema
-const players = data.slice(0, maxPlayers).map(player => {
-    player.name = player.player_name
-    player.position = player.pos
-    player.adp = player.rk
-    player.rank = player.rk
-    player.player_id = player.player_name
-    return player
-}
-)
-
-export default function PlayerMultiDisplay({ numRows, numCols }) {
+export default function PlayerMultiDisplay({ players, numRows, numCols }) {
     const [draftedMap, setDraftedMap] = useState(new Map(players.map(
         player => [player.player_id, false]
     )))
@@ -40,6 +22,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
     const [draftPos, setDraftPos] = useState(7)
     const [searchValue, setSearchValue] = useState('')
     const [searchPos, setSearchPos] = useState(allPositions)
+    const [tierFilter, setTierFilter] = useState(noTierFilter)
 
     const useRefs = useRef({})
 
@@ -105,6 +88,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                         setSearchValue={setSearchValue}
                         includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted}
                         searchPos={searchPos} setSearchPos={setSearchPos}
+                        tierFilter={tierFilter} setTierFilter={setTierFilter}
                         ref={useRefs}
                     />
                 </Row>
@@ -116,6 +100,7 @@ export default function PlayerMultiDisplay({ numRows, numCols }) {
                             pickNum={pickNum} setPickNum={setPickNum}
                             searchValue={searchValue}
                             searchPos={searchPos}
+                            tierFilter={tierFilter}
                         />
                     </Col>
                     <Col>

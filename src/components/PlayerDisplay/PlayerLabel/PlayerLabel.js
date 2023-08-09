@@ -21,6 +21,7 @@ const PlayerLabel = forwardRef((props, allRefs = null) => {
             <td>{player.team}</td>
             <td>{player.rank}</td>
             <td>{player.currentRank}</td>
+            <td>{player.tiers}</td>
         </tr>
     )
 }
