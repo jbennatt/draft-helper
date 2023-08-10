@@ -47,17 +47,19 @@ You need to be able to get any object in your source location (directory/folder)
 
 ### Allow writing to destination and Modify ACL
 
-You need to be able to put an object _and_, to be able to access the output from internet, modify the ACL to public:
+You need to be able to:
+* put an object (to write to S3)
+* modify the ACL to public (to be able to access the output from internet)
 
-    {
-      "Sid": "AllowWriteToJson",
-      "Effect": "Allow",
-      "Action": [
-        "s3:PutObject",
-        "s3:PutObjectAcl"
-        ],
-      "Resource": "arn:aws:s3:::<bucket>/<path-to-json-output>/*"
-    }
+        {
+            "Sid": "AllowWriteToJson",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:PutObjectAcl"
+                ],
+            "Resource": "arn:aws:s3:::<bucket>/<path-to-json-output>/*"
+        }
 
 # Create IAM Role
 
@@ -70,11 +72,11 @@ Just create new role and add the above policy:
 
  _**Note that the lambda function must be in the same AWS region as the bucket/s it's accessing!!!**_
 
-1. Choose Author from Scratch
+1. Choose _Author from Scratch_
 2. Give a name
-3. Choose Python Runtiome (Pythong 3.11 was used)
-4. _Changed default execution role to one created above_
-5. Copy modified code into Lambda Function console and Deploy (to save lambda function)
+3. Choose Python Runtiome (Python 3.11 was used)
+4. Change default execution role to one created above
+5. Copy (or upload) Lambda Function to console and Deploy (to save lambda function)
 
 # Create S3 trigger
 
@@ -83,7 +85,8 @@ While in the Lambda function console, choose to add trigger:
 1. Choose S3 trigger
 2. set the bucket
 3. add a prefix to your source files
-4. Choose **All object create events** under Event Types
+    * _**this is important to limit what triggers the lambda function!!!**_
+5. Choose **All object create events** under Event Types
 
 You have to then ackowledge that it's possible that you could create an endless loop of calls (if you listen for a read, then write, then hear the read, then write, then so on and so forth).
 
