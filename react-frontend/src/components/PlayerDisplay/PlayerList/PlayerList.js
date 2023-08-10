@@ -1,7 +1,11 @@
 import './PlayerList.css'
-import PlayerLabel from '../PlayerLabel/PlayerLabel'
-import { Table } from 'react-bootstrap'
+
 import { filterPosition } from '../../ControlPanel/ControlPanel'
+import PlayerLabel from '../PlayerLabel/PlayerLabel'
+import { fields } from '../PlayerLabel/PlayerLabel'
+
+import { Table } from 'react-bootstrap'
+
 
 const playerListPanel = 'player_list_panel'
 const noTierFilter = 'ALL'
@@ -13,14 +17,11 @@ export default function PlayerList({ allPlayers, searchValue, includeDrafted, dr
         <div className='player_list_class' style={{ width: 'max-content' }} id={playerListPanel}>
 
             <Table hover size='sm'>
-                <thead className='thead-dark sticky-top' style={{'zIndex': '1'}}>
+                <thead className='thead-dark sticky-top' style={{ 'zIndex': '1' }}>
                     <tr>
-                        <th>Name</th>
-                        <th>Pos</th>
-                        <th>Team</th>
-                        <th>Orig</th>
-                        <th>Current</th>
-                        <th>Tier</th>
+                        {fields.map(field => (
+                            <th key={field.header}>{field.header}</th>
+                        ))}
                     </tr>
                 </thead>
                 <tbody>
@@ -49,7 +50,7 @@ function filterTier(tier, tierFilter) {
     return tierFilter.trim() === noTierFilter || tier === tierFilter
 }
 
-export function filterPlayers(allPlayers, includeDrafted, draftedMap, searchPos=allPositions, searchValue = '', tierFilter=noTierFilter) {
+export function filterPlayers(allPlayers, includeDrafted, draftedMap, searchPos = allPositions, searchValue = '', tierFilter = noTierFilter) {
     return allPlayers.filter(player => {
         return filterTier(player.tiers, tierFilter) && filterPosition(player, searchPos) && filterName(player.name, searchValue) && (includeDrafted || !draftedMap.get(player.player_id))
     }

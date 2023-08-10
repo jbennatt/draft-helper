@@ -1,6 +1,17 @@
 import './PlayerLabel.css'
 import { forwardRef } from 'react'
 
+export const valueHeader = 'Value'
+
+export const fields = [
+    { header: 'Name', playerKey: 'name' },
+    { header: 'Pos', playerKey: 'position' },
+    { header: 'Team', playerKey: 'team' },
+    { header: 'Current', playerKey: 'currentRank' },
+    { header: valueHeader, playerKey: 'rank' }
+    // { header: 'Tier', playerKey: 'tiers' }
+]
+
 const PlayerLabel = forwardRef((props, allRefs) => {
     const { player, draftedMap, setDraftedMap, pickNum, setPickNum, parentId } = props
 
@@ -13,12 +24,13 @@ const PlayerLabel = forwardRef((props, allRefs) => {
             ${player.isYourPick ? 'your_pick' : ''}`}
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
         >
-            <td>{player.name}</td>
-            <td>{player.position}</td>
-            <td>{player.team}</td>
-            <td>{player.rank}</td>
-            <td>{player.currentRank}</td>
-            <td>{player.tiers}</td>
+            {
+                fields.map(field => {
+                    if (field.header !== valueHeader) return <td key={field.playerKey}>{player[field.playerKey]}</td>
+                    else return <td key={field.playerKey}>{player[field.playerKey] - pickNum + 1}</td>
+                    
+                })
+            }
         </tr>
     )
 }

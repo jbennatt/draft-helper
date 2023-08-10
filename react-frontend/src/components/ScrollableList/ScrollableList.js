@@ -1,8 +1,10 @@
 import { forwardRef } from 'react';
 import './ScrollableList.css'
-import PlayerLabel from '../PlayerDisplay/PlayerLabel/PlayerLabel';
+
 import { filterPlayers } from '../PlayerDisplay/PlayerList/PlayerList';
-import { getFullRefId } from '../PlayerDisplay/PlayerLabel/PlayerLabel';
+import PlayerLabel from '../PlayerDisplay/PlayerLabel/PlayerLabel';
+import { getFullRefId, fields } from '../PlayerDisplay/PlayerLabel/PlayerLabel';
+
 import { Table } from 'react-bootstrap';
 
 
@@ -16,12 +18,9 @@ const ScrollableList = forwardRef((props, allRefs) => {
                 <Table hover size='sm'>
                     <thead className='thead-dark sticky-top' style={{ 'zIndex': '1' }}>
                         <tr>
-                            <th>Name</th>
-                            <th>Pos</th>
-                            <th>Team</th>
-                            <th>Orig</th>
-                            <th>Current</th>
-                            <th>Tier</th>
+                            {fields.map(field => (
+                                <th key={field.header}>{field.header}</th>
+                            ))}
                         </tr>
                     </thead>
                     <tbody>

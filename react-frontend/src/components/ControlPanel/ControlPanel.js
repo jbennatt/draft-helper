@@ -95,7 +95,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <SearchBar setSearchValue={setSearchValue} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted} />
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton size='sm' class='selector_button' title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
+                    <DropdownButton size='sm' title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
                         {positions.map(pos =>
                             <Dropdown.Item key={pos}>{pos}</Dropdown.Item>
                         )}
