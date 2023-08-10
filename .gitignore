@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-#Intellij
+# Intellij
 */.idea/*
+
+# data foloder
+data/*
 
 # dependencies
 react-frontend/node_modules
