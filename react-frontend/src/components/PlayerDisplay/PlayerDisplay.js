@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import PlayerList from './PlayerList/PlayerList'
 import './PlayerDisplay.css'
 

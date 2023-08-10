@@ -8,36 +8,34 @@ import { Table } from 'react-bootstrap';
 
 
 const ScrollableList = forwardRef((props, allRefs) => {
-    const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId, searchPos } = props
+    const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId } = props
 
     return (
         <div className="app">
             <div className="scroller" id={id} ref={el => allRefs.current[id] = el} anchor_player_id={anchorPlayerId}>
                 <Table hover size='sm'>
-                <thead class='thead-dark sticky-top' style={{'zIndex': '1'}}>
-                    <tr>
-                        <th>Name</th>
-                        <th>Pos</th>
-                        <th>Team</th>
-                        <th>Orig</th>
-                        <th>Current</th>
-                        <th>Tier</th>
-                    </tr>
-                </thead>
-                <tbody>
-                {filterPlayers(players, includeDrafted, draftedMap).map(player => {
-                    return (
-                        <PlayerLabel
-                            ref={allRefs}
-                            key={player.player_id}
-                            player={player}
-                            draftedMap={draftedMap} setDraftedMap={setDraftedMap}
-                            pickNum={pickNum} setPickNum={setPickNum}
-                            parentId={id}
-                        />
-                    );
-                })}
-                </tbody>
+                    <thead className='thead-dark sticky-top' style={{ 'zIndex': '1' }}>
+                        <tr>
+                            <th>Name</th>
+                            <th>Pos</th>
+                            <th>Team</th>
+                            <th>Orig</th>
+                            <th>Current</th>
+                            <th>Tier</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {filterPlayers(players, includeDrafted, draftedMap).map(player =>
+                            <PlayerLabel
+                                ref={allRefs}
+                                key={player.player_id}
+                                player={player}
+                                draftedMap={draftedMap} setDraftedMap={setDraftedMap}
+                                pickNum={pickNum} setPickNum={setPickNum}
+                                parentId={id}
+                            />
+                        )}
+                    </tbody>
                 </Table>
             </div>
         </div>

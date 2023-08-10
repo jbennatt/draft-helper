@@ -1,7 +1,7 @@
 import './PlayerLabel.css'
 import { forwardRef } from 'react'
 
-const PlayerLabel = forwardRef((props, allRefs = null) => {
+const PlayerLabel = forwardRef((props, allRefs) => {
     const { player, draftedMap, setDraftedMap, pickNum, setPickNum, parentId } = props
 
     return (
@@ -11,10 +11,7 @@ const PlayerLabel = forwardRef((props, allRefs = null) => {
             ref={el => { if (allRefs) allRefs.current[getFullRefId(parentId, player.player_id)] = el }} // by defaullt don't set the ref (allRefs is null)
             className={`player_label ${getBSRowClass(stripNumFromPos(player.position))} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} 
             ${player.isYourPick ? 'your_pick' : ''}`}
-            // className={`player_name ${stripNumFromPos(player.position)} ${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
-            // className={`${draftedMap.get(player.player_id) ? 'drafted' : 'undrafted'} ${player.isYourPick ? 'your_pick' : ''}`}
             onClick={() => togglePlayerDrafted(player.player_id, draftedMap, setDraftedMap, pickNum, setPickNum)}
-            key={player.player_id}
         >
             <td>{player.name}</td>
             <td>{player.position}</td>
@@ -47,13 +44,17 @@ function togglePlayerDrafted(playerId, draftedMap, setDraftedMap, pickNum = null
 }
 
 function getBSRowClass(pos) {
-    switch(pos.trim().toUpperCase()) {
+    switch (pos.trim().toUpperCase()) {
         case 'WR': return 'table-success'
         case 'RB': return 'table-primary'
         case 'TE': return 'table-warning'
         case 'QB': return 'table-danger'
-        case 'DEF', 'DST': return 'table-info'
-        case 'PK', 'K': return 'table-secondary'
+        case 'DEF':
+        case 'DST':
+            return 'table-info'
+        case 'PK':
+        case 'K':
+            return 'table-secondary'
         default: return 'table-light'
     }
 }

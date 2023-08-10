@@ -111,8 +111,8 @@ export default function PlayerMultiDisplay({ players, numRows, numCols }) {
                                         {
                                             [...Array(numCols).keys()].map(colIndex => (
                                                 <Col key={`panel_row_col_${rowIndex}_${colIndex}`}>
-                                                    <Card key={`card_parent_${rowIndex}_${colIndex}`}>
-                                                        <Card.Body key={`card_body_${rowIndex}_${colIndex}`}>
+                                                    <Card>
+                                                        <Card.Body>
                                                             <ScrollableList
                                                                 ref={useRefs}
                                                                 id={getPanelId(rowIndex, colIndex)}
@@ -121,7 +121,6 @@ export default function PlayerMultiDisplay({ players, numRows, numCols }) {
                                                                 includeDrafted={includeDrafted}
                                                                 draftedMap={draftedMap} setDraftedMap={setDraftedMap}
                                                                 pickNum={pickNum} setPickNum={setPickNum}
-                                                                key={getPanelId(rowIndex, colIndex)}
                                                             />
                                                         </Card.Body>
                                                     </Card>
@@ -151,14 +150,15 @@ function getPanelId(rowIndex, colIndex) {
 function getYourPickNums(draftPos, numTeams) {
     const yourPicks = [draftPos]
     let currPick = draftPos
+    let roundIndex = 1
 
-    const unit = [...Array(maxRoundsForCompute).keys()].forEach(roundIndex => {
-        // indexes are 0-indexed, so "even" round are really the odd rounds
-        if (roundIndex % 2 === 0) currPick += 2 * (numTeams - draftPos) + 1
+    while(roundIndex <= maxRoundsForCompute) {
+        if (roundIndex % 2 === 1) currPick += 2 * (numTeams - draftPos) + 1
         else currPick += 2 * draftPos - 1
 
         yourPicks.push(currPick)
-    })
+        ++roundIndex
+    }
 
     return new Set(yourPicks)
 }

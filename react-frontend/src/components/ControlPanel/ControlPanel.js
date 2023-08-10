@@ -32,7 +32,7 @@ export function filterPosition(player, searchPos) {
     if (!isValidPosFilter(searchPos) || searchPos === allPositions) return true
 
     const strippedPos = stripNumFromPos(player.position)
-    return strippedPos === searchPos || (searchPos === flex && (strippedPos === rb || strippedPos === wr || strippedPos == te))
+    return strippedPos === searchPos || (searchPos === flex && (strippedPos === rb || strippedPos === wr || strippedPos === te))
 }
 
 const ControlPanel = forwardRef((props, useRefs) => {
@@ -97,7 +97,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                 <Col md='auto'>
                     <DropdownButton title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
                         {positions.map(pos =>
-                            <Dropdown.Item>{pos}</Dropdown.Item>
+                            <Dropdown.Item key={pos}>{pos}</Dropdown.Item>
                         )}
                     </DropdownButton>
                 </Col>
@@ -105,7 +105,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <DropdownButton title={`Tier (${tierFilter})`} onClick={updateTierFilter} variant='secondary'>
                         {
                             supportedTierFilters.map(tier =>
-                                <Dropdown.Item>{tier}</Dropdown.Item>)
+                                <Dropdown.Item key={tier}>{tier}</Dropdown.Item>)
                         }
                     </DropdownButton>
                 </Col>
@@ -113,7 +113,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
                             supportedNumTeams.map(numTeams =>
-                                <Dropdown.Item>{numTeams}</Dropdown.Item>
+                                <Dropdown.Item key={numTeams}>{numTeams}</Dropdown.Item>
                             )
                         }
                     </DropdownButton>
@@ -122,7 +122,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <DropdownButton title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
                         {
                             [...Array(numTeams).keys()].map(index =>
-                                <Dropdown.Item>{index + 1}</Dropdown.Item>
+                                <Dropdown.Item key={index}>{index + 1}</Dropdown.Item>
                             )
                         }
                     </DropdownButton>
