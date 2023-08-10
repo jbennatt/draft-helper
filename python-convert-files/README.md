@@ -20,7 +20,8 @@ We add access by adding objects to the **Statement** array field.
 ### Allow logging
 
 We must allow the Lambda function to produce logs to CloudWatch.
-\* I suggest limiting the retention of logs after the log group is created.
+
+_I suggest limiting the retention of logs after the log group is created._
 
     {
       "Sid": "AllowLogging",
