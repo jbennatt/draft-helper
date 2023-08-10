@@ -2,7 +2,7 @@ import PlayerMultiDisplay from './components/PlayerMultiDisplay/PlayerMultiDispl
 import './App.css'
 import { useState, useEffect } from 'react';
 
-const jsonPath = 'http://jaredbennatt.com/draft-helper/data/ffp-rankings-underscores.json'
+const jsonPath = 'http://jaredbennatt.com/draft-helper/data/json/rankings.json'
 
 const maxPlayers = 300
 
