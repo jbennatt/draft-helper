@@ -1,5 +1,7 @@
 # Instructions for setting up Lambda function with trigger
 
+Reference: [Tutorial: Using an Amazon S3 trigger to invoke a Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html)
+
 ## Create IAM policy
 
 An IAM policy needs to be created to allow the necessary actions.
