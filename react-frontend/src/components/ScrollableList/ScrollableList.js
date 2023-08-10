@@ -43,7 +43,7 @@ const ScrollableList = forwardRef((props, allRefs) => {
 }
 )
 
-const anchorPlayerDrop = 200
+const anchorPlayerDrop = 150
 
 export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
     const scrollerDiv = allRefs.current[scrollerDivId]

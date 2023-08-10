@@ -10,7 +10,7 @@ const allPositions = 'ALL'
 export default function PlayerList({ allPlayers, searchValue, includeDrafted, draftedMap, setDraftedMap, pickNum, setPickNum, searchPos, tierFilter }) {
 
     return (
-        <div style={{ width: 'max-content' }} id={playerListPanel}>
+        <div className='player_list_class' style={{ width: 'max-content' }} id={playerListPanel}>
 
             <Table hover size='sm'>
                 <thead className='thead-dark sticky-top' style={{'zIndex': '1'}}>

@@ -86,8 +86,8 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <h1>Round {computeRound()}.{computePickInRound()}, Pick &#35;{pickNum}</h1>
                 </Col>
                 <Col>
-                    <Button onClick={() => incrementNumPicks(1)} as={ButtonGroup} variant='danger'>Add Pick</Button>
-                    <Button onClick={() => incrementNumPicks(-1)} as={ButtonGroup} variant='danger'>Takeaway Pick</Button>
+                    <Button size='sm' onClick={() => incrementNumPicks(1)} as={ButtonGroup} variant='danger'>Add Pick</Button>
+                    <Button size='sm' onClick={() => incrementNumPicks(-1)} as={ButtonGroup} variant='danger'>Takeaway Pick</Button>
                 </Col>
             </Row>
             <Row>
@@ -95,14 +95,14 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     <SearchBar setSearchValue={setSearchValue} includeDrafted={includeDrafted} setIncludeDrafted={setIncludeDrafted} />
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
+                    <DropdownButton size='sm' class='selector_button' title={`Position (${searchPos})`} onClick={updateSearchPos} variant='secondary'>
                         {positions.map(pos =>
                             <Dropdown.Item key={pos}>{pos}</Dropdown.Item>
                         )}
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Tier (${tierFilter})`} onClick={updateTierFilter} variant='secondary'>
+                    <DropdownButton size='sm' title={`Tier (${tierFilter})`} onClick={updateTierFilter} variant='secondary'>
                         {
                             supportedTierFilters.map(tier =>
                                 <Dropdown.Item key={tier}>{tier}</Dropdown.Item>)
@@ -110,7 +110,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
+                    <DropdownButton size='sm' title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
                         {
                             [...Array(numTeams).keys()].map(index =>
                                 <Dropdown.Item key={index}>{index + 1}</Dropdown.Item>
@@ -119,7 +119,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
+                    <DropdownButton size='sm' title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
                             supportedNumTeams.map(numTeams =>
                                 <Dropdown.Item key={numTeams}>{numTeams}</Dropdown.Item>
@@ -128,7 +128,7 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <Button variant='primary' onClick={recenterAll}>Recenter</Button>
+                    <Button size='sm' variant='primary' onClick={recenterAll}>Recenter</Button>
                 </Col>
             </Row>
         </Container>
