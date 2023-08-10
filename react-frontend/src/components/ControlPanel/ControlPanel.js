@@ -110,19 +110,19 @@ const ControlPanel = forwardRef((props, useRefs) => {
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
+                    <DropdownButton title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
                         {
-                            supportedNumTeams.map(numTeams =>
-                                <Dropdown.Item key={numTeams}>{numTeams}</Dropdown.Item>
+                            [...Array(numTeams).keys()].map(index =>
+                                <Dropdown.Item key={index}>{index + 1}</Dropdown.Item>
                             )
                         }
                     </DropdownButton>
                 </Col>
                 <Col md='auto'>
-                    <DropdownButton title={`Draft Position (${draftPos})`} onClick={updateDraftPos} variant='secondary'>
+                    <DropdownButton title={`Number of Teams (${numTeams})`} onClick={updateNumTeams} variant='secondary'>
                         {
-                            [...Array(numTeams).keys()].map(index =>
-                                <Dropdown.Item key={index}>{index + 1}</Dropdown.Item>
+                            supportedNumTeams.map(numTeams =>
+                                <Dropdown.Item key={numTeams}>{numTeams}</Dropdown.Item>
                             )
                         }
                     </DropdownButton>
