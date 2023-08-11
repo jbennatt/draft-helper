@@ -74,7 +74,7 @@ Just create new role and add the above policy:
 
 1. Choose _Author from Scratch_
 2. Give a name
-3. Choose Python Runtiome (Python 3.11 was used)
+3. Choose Python Runtime (Python 3.11 was used)
 4. Change default execution role to one created above
 5. Copy (or upload) Lambda Function to console and Deploy (to save lambda function)
 
@@ -88,6 +88,6 @@ While in the Lambda function console, choose to add trigger:
     * _**this is important to limit what triggers the lambda function!!!**_
 5. Choose **All object create events** under Event Types
 
-You have to then ackowledge that it's possible that you could create an endless loop of calls (if you listen for a read, then write, then hear the read, then write, then so on and so forth).
+You have to then ackowledge that it's possible that you could create an endless loop of calls: if you listen for a change, then create a change (by writing to the place you're also listening), you will then hear a change, and write again, creating another change, thus another write, ad nauseum.
 
 _**Make sure IAM policy only allows writes to the write location and that the read location is specified in the prefix for the S3 trigger**_
