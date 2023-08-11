@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import { forwardRef, useEffect } from 'react';
 import './ScrollableList.css'
 
 import { filterPlayers } from '../PlayerDisplay/PlayerList/PlayerList';
@@ -11,6 +11,10 @@ import { Table } from 'react-bootstrap';
 
 const ScrollableList = forwardRef((props, allRefs) => {
     const { id, players, draftedMap, setDraftedMap, includeDrafted, pickNum, setPickNum, anchorPlayerId } = props
+
+    useEffect(() => {
+        scrollToAnchorPlayer(id, allRefs)
+    })
 
     return (
         <div className="app">
@@ -44,7 +48,7 @@ const ScrollableList = forwardRef((props, allRefs) => {
 
 const anchorPlayerDrop = 150
 
-export function scrollToAnchorPlayer(scrollerDivId, allRefs) {
+function scrollToAnchorPlayer(scrollerDivId, allRefs) {
     const scrollerDiv = allRefs.current[scrollerDivId]
     const anchorPlayerId = scrollerDiv.getAttribute("anchor_player_id")
     const refKeyToPlayerLabel = getFullRefId(scrollerDivId, anchorPlayerId)

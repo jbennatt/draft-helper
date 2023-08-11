@@ -3,7 +3,6 @@ import './ControlPanel.css'
 import { forwardRef } from 'react'
 import { Container, Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
 
-import { scrollToAnchorPlayer } from '../ScrollableList/ScrollableList'
 import { SearchBar } from './SearchPanel/SearchBar'
 import { stripNumFromPos } from '../PlayerDisplay/PlayerLabel/PlayerLabel'
 
@@ -40,12 +39,6 @@ const ControlPanel = forwardRef((props, useRefs) => {
         searchPos, setSearchPos, tierFilter, setTierFilter } = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
-
-    const recenterAll = () => {
-        panelIds.forEach(panelId => {
-            scrollToAnchorPlayer(panelId, useRefs)
-        })
-    }
 
     const updateDraftPos = (selectionEvent) => {
         const newDraftPos = parseInt(selectionEvent.target.innerText)
@@ -126,9 +119,6 @@ const ControlPanel = forwardRef((props, useRefs) => {
                             )
                         }
                     </DropdownButton>
-                </Col>
-                <Col md='auto'>
-                    <Button size='sm' variant='primary' onClick={recenterAll}>Recenter</Button>
                 </Col>
             </Row>
         </Container>
