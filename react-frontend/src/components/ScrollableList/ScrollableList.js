@@ -55,17 +55,21 @@ function scrollToAnchorPlayer(scrollerDivId, allRefs) {
 
     const playerLabelInScroll = allRefs.current[refKeyToPlayerLabel]
 
-    let top = playerLabelInScroll.offsetTop
+    // only scroll if you actually found a player label--you won't if the players list was empty (which it is initially)
+    if (playerLabelInScroll) {
 
-    if (top < anchorPlayerDrop) top = 0 // don't scroll at all
-    else top -= anchorPlayerDrop
+        let top = playerLabelInScroll.offsetTop
 
-    scrollerDiv.scrollTo({
-        left: 0,
-        top: top,
-        behavior: 'smooth',
+        if (top < anchorPlayerDrop) top = 0 // don't scroll at all
+        else top -= anchorPlayerDrop
+
+        scrollerDiv.scrollTo({
+            left: 0,
+            top: top,
+            behavior: 'smooth',
+        }
+        )
     }
-    )
 }
 
 export default ScrollableList
