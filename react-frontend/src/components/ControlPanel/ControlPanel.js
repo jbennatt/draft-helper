@@ -37,7 +37,7 @@ export function filterPosition(player, searchPos) {
 
 const ControlPanel = forwardRef((props, useRefs) => {
     const { pickNum, setPickNum, numTeams, setNumTeams, draftPos, setDraftPos, panelIds, setSearchValue, includeDrafted, setIncludeDrafted,
-        searchPos, setSearchPos, tierFilter, setTierFilter } = props
+        searchPos, setSearchPos, tierFilter, setTierFilter, lastUpdateDate } = props
     const computeRound = () => Math.floor((pickNum - 1) / numTeams) + 1
     const computePickInRound = () => ((pickNum - 1) % numTeams) + 1
 
@@ -82,12 +82,15 @@ const ControlPanel = forwardRef((props, useRefs) => {
     return (
         <Container fluid id='control_panel'>
             <Row>
-                <Col>
+                <Col md='auto'>
                     <h1>Round {computeRound()}.{computePickInRound()}, Pick &#35;{pickNum}</h1>
                 </Col>
-                <Col>
+                <Col md='auto'>
                     <Button size='sm' onClick={() => incrementNumPicks(1)} as={ButtonGroup} variant='danger'>Add Pick</Button>
                     <Button size='sm' onClick={() => incrementNumPicks(-1)} as={ButtonGroup} variant='danger'>Takeaway Pick</Button>
+                </Col>
+                <Col md='auto'>
+                    <h5>Updated: {lastUpdateDate}</h5>
                 </Col>
             </Row>
             <Row>

@@ -10,7 +10,7 @@ import './PlayerMultiDisplay.css'
 export const noTierFilter = 'ALL'
 export const allPositions = 'ALL'
 
-export default function PlayerMultiDisplay({ players, numRows, numCols }) {
+export default function PlayerMultiDisplay({ players, numRows, numCols, lastUpdateDate }) {
     const [draftedMap, setDraftedMap] = useState(new Map(players.map(
         player => [player.player_id, false]
     )))
@@ -90,6 +90,7 @@ export default function PlayerMultiDisplay({ players, numRows, numCols }) {
                         searchPos={searchPos} setSearchPos={setSearchPos}
                         tierFilter={tierFilter} setTierFilter={setTierFilter}
                         ref={useRefs}
+                        lastUpdateDate={lastUpdateDate}
                     />
                 </Row>
                 <Row>

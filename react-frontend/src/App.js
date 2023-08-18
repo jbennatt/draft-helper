@@ -30,14 +30,18 @@ function getPlayers(data) {
 
 function App() {
   const [players, setPlayers] = useState(Array(0))
+  const [lastUpdateDate, setLastUpdateDate] = useState('NA')
 
   useEffect(() => {
     fetch(jsonPath)
       .then(response => response.json())
-      .then(jsonData => setPlayers(getPlayers(jsonData)))
+      .then(jsonData => {
+        setLastUpdateDate(jsonData.last_update)
+        setPlayers(getPlayers(jsonData.players))
+      })
   })
 
-  return <PlayerMultiDisplay players={players} numRows={2} numCols={3} />
+  return <PlayerMultiDisplay players={players} numRows={2} numCols={3} lastUpdateDate={lastUpdateDate} />
 }
 
 export default App;
