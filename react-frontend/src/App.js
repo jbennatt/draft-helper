@@ -33,7 +33,7 @@ function App() {
   const [lastUpdateDate, setLastUpdateDate] = useState('NA')
 
   useEffect(() => {
-    fetch(jsonPath)
+    fetch(jsonPath, { cache: "reload" })
       .then(response => response.json())
       .then(jsonData => {
         setLastUpdateDate(jsonData.last_update)
