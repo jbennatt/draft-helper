@@ -77,7 +77,9 @@ def reMapPlayerKeys(player):
 
 
 def reMapJsonArray(jsonArr):
-    return [reMapPlayerKeys(player) for player in jsonArr]
+    remapped = [reMapPlayerKeys(player) for player in jsonArr]
+    # filter out any invalid players
+    return [player for player in remapped if player['player']]
 
 
 def addMetaData(jsonArr):
