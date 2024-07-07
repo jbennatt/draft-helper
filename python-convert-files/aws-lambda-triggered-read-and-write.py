@@ -73,13 +73,13 @@ def reMapPlayerKeys(player):
     # update the empty newPlayer object with the "good" key to the "bad" key's value
     for playerKey in player.keys():
         newPlayer['_'.join(playerKey.lower().split())] = player[playerKey]
-    return newPlayer
+    return normalize_csv_input(newPlayer)
 
 
 def reMapJsonArray(jsonArr):
     remapped = [reMapPlayerKeys(player) for player in jsonArr]
     # filter out any invalid players
-    return [player for player in remapped if player['player']]
+    return [player for player in remapped if player['player_name']]
 
 
 def addMetaData(jsonArr):
@@ -88,3 +88,20 @@ def addMetaData(jsonArr):
         , "players": jsonArr
 
     }
+
+
+# this function will need to be updated every year, when the CSV headings change to re-normalize to these:
+#
+# player_name
+# rk (rank)
+# pos (position)
+# team
+def normalize_csv_input(csv_record):
+    new_record = {}
+
+    new_record['player_name'] = csv_record['player']
+    new_record['rk'] = csv_record['rank']
+    new_record['pos'] = csv_record['pos']
+    new_record['team'] = csv_record['team']
+
+    return new_record
