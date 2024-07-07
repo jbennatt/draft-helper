@@ -64,20 +64,8 @@ def lambda_handler(event, context):
         raise e
 
 
-def reMapPlayerKeys(player):
-    newPlayer = {}
-
-    # iterate over keys in each player object
-    # remove all spaces by splitting the key on whitespace then joining the
-    #   tokens with an underscore
-    # update the empty newPlayer object with the "good" key to the "bad" key's value
-    for playerKey in player.keys():
-        newPlayer['_'.join(playerKey.lower().split())] = player[playerKey]
-    return normalize_csv_input(newPlayer)
-
-
 def reMapJsonArray(jsonArr):
-    remapped = [reMapPlayerKeys(player) for player in jsonArr]
+    remapped = [normalize_csv_input(player) for player in jsonArr]
     # filter out any invalid players
     return [player for player in remapped if player['player_name']]
 
@@ -99,9 +87,9 @@ def addMetaData(jsonArr):
 def normalize_csv_input(csv_record):
     new_record = {}
 
-    new_record['player_name'] = csv_record['player']
-    new_record['rk'] = csv_record['rank']
-    new_record['pos'] = csv_record['pos']
-    new_record['team'] = csv_record['team']
+    new_record['player_name'] = csv_record['Player']
+    new_record['rk'] = csv_record['Rank']
+    new_record['pos'] = csv_record['POS']
+    new_record['team'] = csv_record['Team']
 
     return new_record
