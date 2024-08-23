@@ -2,11 +2,14 @@ import json
 import csv
 import urllib.parse
 import boto3
+import dateutil.tz as tz
 from datetime import datetime
 
 
 jsonBucket = "jaredbennatt.com"
 jsonPath = 'draft-helper/data/json/rankings.json'
+
+adpKeys = {'Sleeper', 'Yahoo', 'RTSports'}
 
 
 def lambda_handler(event, context):
@@ -34,14 +37,14 @@ def lambda_handler(event, context):
         raise e
 
     print(f'Trying to read response body from: {bucket}/{key}')
-    csvDict = None
+    csvDictReader = None
     try:
-        csvDict = csv.DictReader(response['Body'].read().decode('utf-8').splitlines(True))
+        csvDictReader = csv.DictReader(response['Body'].read().decode('utf-8').splitlines(True))
     except Exception as e:
         print(e)
         raise e
 
-    jsonReMappedArr = reMapJsonArray(csvDict)
+    jsonReMappedArr = mapCsvToJson(csvDictReader)
     finalJson = addMetaData(jsonReMappedArr)
 
     print(f'update date: {finalJson["last_update"]}')
@@ -62,17 +65,25 @@ def lambda_handler(event, context):
     except Exception as e:
         print(e)
         raise e
+    
+
+def isAdpCsv(csvDictReader):
+    return len(set(csvDictReader.fieldnames).intersection(adpKeys)) > 0
 
 
-def reMapJsonArray(jsonArr):
-    remapped = [normalize_csv_input(player) for player in jsonArr]
+def mapCsvToJson(csvDictReader):
+    if(isAdpCsv(csvDictReader)):
+        remapped = [normalize_adp_csv(index, record) for index, record in enumerate(csvDictReader)]
+    else:
+        remapped = [normalize_csv_input(player) for player in csvDictReader]
+    
     # filter out any invalid players
     return [player for player in remapped if player['player_name']]
 
 
 def addMetaData(jsonArr):
     return {
-        "last_update": str(datetime.today().date())
+        "last_update": datetime.now(tz.gettz('America/Chicago')).strftime('%m/%d/%Y %I:%M %p %Z')
         , "players": jsonArr
 
     }
@@ -87,9 +98,20 @@ def addMetaData(jsonArr):
 def normalize_csv_input(csv_record):
     new_record = {}
 
-    new_record['player_name'] = csv_record['Player']
-    new_record['rk'] = csv_record['Rank']
+    new_record['player_name'] = csv_record['PLAYER NAME']
+    new_record['rk'] = csv_record['RK']
     new_record['pos'] = csv_record['POS']
-    new_record['team'] = csv_record['Team']
+    new_record['team'] = csv_record['TEAM']
+
+    return new_record
+
+
+def normalize_adp_csv(list_index, adp_record):
+    new_record = {}
+
+    new_record['player_name'] = adp_record['Player']
+    new_record['rk'] = list_index + 1
+    new_record['pos'] = adp_record['POS']
+    new_record['team'] = adp_record['Team']
 
     return new_record
